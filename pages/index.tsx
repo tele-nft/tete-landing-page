@@ -1,6 +1,10 @@
 import Head from "next/head";
 
+import Ecosystem from "../components/ecosystem";
+import Features from "../components/features";
 import Header from "../components/header";
+import Heros from "../components/heros";
+import Introduction from "../components/introduction";
 
 import type { NextPage } from 'next';
 const Home: NextPage = () => {
@@ -16,6 +20,10 @@ const Home: NextPage = () => {
             </Head>
 
             <Header />
+            <Introduction />
+            <Ecosystem />
+            <Features />
+            <Heros />
         </div>
     );
 };

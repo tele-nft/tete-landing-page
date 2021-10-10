@@ -1,8 +1,16 @@
 .header {
-    padding: 0px 15px;
+    height: 80px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #EF4BF2;
+    font-family: "AgencyFB";
 }
 .nav-item {
     padding-left: 50px;
+}
+.nav-link {
+   color: #ffffff !important;
+   font-size: 25px;
 }
 .navbar {
     padding: 10px 0px;
@@ -31,4 +39,14 @@
     opacity: 1;
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
+}
+
+.logo{
+    position: absolute;
+    top:0.5rem;   
+}
+
+.logo img{
+    height: 6.25rem;
+    width: auto;
 }

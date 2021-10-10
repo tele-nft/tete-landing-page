@@ -1,0 +1,19 @@
+.introduction{
+    background-image: url("/images/intro-bg.jpg");
+    background-size: cover;
+}
+
+.content{
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.button{
+    background: none;
+    border: none;
+}
+
+.connect{
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+}
