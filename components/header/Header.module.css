@@ -1,8 +1,7 @@
 .header {
     height: 80px;
     padding-top: .5rem;
-    padding-bottom: .5rem;
-    background-color: #EF4BF2;
+    padding-bottom: .5rem;    
     font-family: "AgencyFB";
 }
 .nav-item {
@@ -15,6 +14,7 @@
 .navbar {
     padding: 10px 0px;
     line-height: 50px;
+    background: #EF4BF2;
 }
 .sticky {
     position: absolute;
@@ -29,7 +29,6 @@
     left: 0;
     padding: 10px 15px;
     width: 100%;
-    background: #fff;
     box-shadow: 0px 6px 13px 0px rgb(0 0 0 / 6%);
     opacity: 0;
     -webkit-animation: fadeInDown 0.95s ease-in-out 0s 1 normal none running;

@@ -5,6 +5,7 @@ import Features from "../components/features";
 import Header from "../components/header";
 import Heros from "../components/heros";
 import Introduction from "../components/introduction";
+import TokenMetrics from "../components/token-metrics";
 
 import type { NextPage } from 'next';
 const Home: NextPage = () => {
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
             <Ecosystem />
             <Features />
             <Heros />
+            <TokenMetrics />
         </div>
     );
 };

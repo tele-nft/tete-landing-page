@@ -1,0 +1,8 @@
+.token-metrics{
+    background-image: url("/images/token-metrics-bg.png");
+    background-size: cover;
+}
+
+.token{
+    margin-left: 75px;
+}

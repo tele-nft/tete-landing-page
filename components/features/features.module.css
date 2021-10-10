@@ -1,6 +1,7 @@
 .features{
     background-image: url("/images/features.jpg");
     background-size: cover;
+    padding-bottom: 50px;
 }
 
 .feature{

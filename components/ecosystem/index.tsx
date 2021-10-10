@@ -23,13 +23,8 @@ export default function Ecosystem() {
                             </p>
                             <p>
                                 GunHunter will become one of the most popular metaverses for players all over the world to compete in,
-                                eventually forming an e-sports marketplace that transcends time and geography to provide games to people all
-                                over the world. The game is played by the players. Plot Summary: In the future, where intense and
-                                intelligent virtual arenas players battle and win by playing all of the characters and using their hunter's
-                                top talents. In the universe of the metaverse, the ultimate winners obtain awards for the winners of PVP
-                                competition wisdom from two people, or form teams to play against one other between countries.
+                                eventually forming an e-sports<span className={Styles['read-more']}>...Read more</span>
                             </p>
-                            <p>In GunHunter, users will have the basic hunter characters Fierce Wolf, Innocent Rabbit, Master Fox. Pig</p>
                         </div>
                     </Col>
                     <Col xs={7}></Col>

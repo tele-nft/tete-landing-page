@@ -14,3 +14,25 @@
     background-size: cover;
 }
 
+.title{
+    font-family: "AgencyFB";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    color: #EF4BF2;
+}
+
+.description{
+    margin-top: 1.875rem;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 37px;
+}
+
+.read-more{
+    color: rgb(255, 201, 84);
+    cursor: pointer;
+}
+
