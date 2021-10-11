@@ -6,6 +6,7 @@ import Header from "../components/header";
 import Heros from "../components/heros";
 import Introduction from "../components/introduction";
 import TokenMetrics from "../components/token-metrics";
+import RoadMap from "../components/road-map";
 
 import type { NextPage } from 'next';
 const Home: NextPage = () => {
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
             <Features />
             <Heros />
             <TokenMetrics />
+            <RoadMap />
         </div>
     );
 };
