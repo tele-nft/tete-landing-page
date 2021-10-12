@@ -1,4 +1,25 @@
-.characters{
-    background-image: url("/images/character-bg.png");
-    background-size: cover;
+.characters {
+  background-image: url('/images/character-bg.png');
+  background-size: cover;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-bottom: 10px solid #ef4bf2;
+}
+
+.characterImg {
+  position: relative;
+  border: 5px solid #ef4bf2;
+}
+
+.characterName {
+  font-size: 53px;
+}
+
+.star {
+  padding-right: 5px !important;
+  padding-top: 5px !important;
 }
