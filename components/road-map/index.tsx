@@ -1,21 +1,25 @@
-import React from "react";
-import { Container, Row, Col } from "reactstrap";
-import Image from "next/image";
+import React, { useEffect, useState } from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Image from 'next/image';
 
-import Styles from "./roadmap.module.css";
+const source = require('public/images/roadmap.png');
+
+import Styles from './roadmap.module.css';
 export default function RoadMap() {
+  const [height, setHeight] = useState(source?.default?.height);
+  const [width, setWidth] = useState(source?.default?.width);
+
+  useEffect(() => {
+    console.log(source);
+    console.log(window);
+    if (window) {
+      setHeight((window.innerWidth * height) / width);
+      setWidth(window.innerWidth);
+    }
+  }, []);
   return (
-    <section id="road-map" className={Styles.roadmap}>
-      <Container>
-        <Row>
-          <Image
-            src={require("public/images/roadmap.png")}
-            alt="tw"
-            // layout="fill"
-            quality={100}
-          />
-        </Row>
-      </Container>
+    <section id="road-map">
+      <Image src={source} alt="tw" height={height} width={width} quality={100} />
     </section>
   );
 }
