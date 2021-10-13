@@ -20,7 +20,7 @@ export default function Features() {
                     </Col>
                     <Col className={Styles.feature}>
                         <img src="./images/hero-farming.png" alt="hero" />
-                        <h3>HERO FARMING</h3>
+                        <h3>HUNTER FARMING</h3>
                         <h4>
                             In addition to participating in combat, they can let Hero automatically cultivate and harvest. A large amount of
                             tokens will automatically flow to your wallet.
