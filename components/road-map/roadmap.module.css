@@ -1,1 +1,4 @@
-
+.roadmap {
+  background-image: url('/images/roadmap-bg.png');
+  background-size: cover;
+}
