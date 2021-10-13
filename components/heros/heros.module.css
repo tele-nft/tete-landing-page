@@ -10,10 +10,16 @@
   border-bottom: 40px solid #ef4bf2;
 }
 
+/* .characterAvatar {
+  width: 140px;
+  height: 180px;
+  position: relative;
+  border-bottom: 40px solid #ef4bf2;
+} */
+
 .characterImg {
   position: relative;
   border: 5px solid #ef4bf2;
-  margin-bottom: 40px;
 }
 
 .characterName {
@@ -33,4 +39,8 @@
 .line {
   border: 1px solid #ef4bf2;
   margin: 20px 50px;
+}
+
+.carousel {
+  padding: 15px;
 }

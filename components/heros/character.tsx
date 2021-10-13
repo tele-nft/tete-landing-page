@@ -1,8 +1,7 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import Image from 'next/image';
 
-import Title from '../title';
 import Styles from './heros.module.css';
 
 type CharacterType = {

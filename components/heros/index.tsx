@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import Title from '../title';
 import Styles from './heros.module.css';
-import Character from './character';
+import CharacterSlider from './character-slider';
 
 const data = [
   {
@@ -58,9 +58,7 @@ export default function Heros() {
         <Row>
           <Title text="characters" />
         </Row>
-        {data.map((item, key) => (
-          <Character key={key} {...{ ...item }} />
-        ))}
+        <CharacterSlider data={data} />
       </Container>
     </section>
   );
