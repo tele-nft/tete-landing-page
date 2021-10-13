@@ -10,10 +10,8 @@ export default function RoadMap() {
   return (
     <section id="road-map" className={Styles.roadmap}>
       <Container>
-        <Row>
-          <Title text="roadmap" />
-          <RoadMapImage />
-        </Row>
+        <Title text="roadmap" />
+        <RoadMapImage />
       </Container>
     </section>
   );
