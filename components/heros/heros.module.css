@@ -17,9 +17,18 @@
   border-bottom: 40px solid #ef4bf2;
 } */
 
+.characterContain {
+  flex-wrap: wrap-reverse;
+}
+
+.characterDes {
+  min-width: 350px;
+}
+
 .characterImg {
   position: relative;
   border: 5px solid #ef4bf2;
+  min-width: 350px;
 }
 
 .characterName {
@@ -43,4 +52,10 @@
 
 .carousel {
   padding: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .characterAvatar {
+    display: none;
+  }
 }

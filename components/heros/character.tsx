@@ -16,8 +16,8 @@ type CharacterType = {
 export default function Character({ name, description, maxim, star, image, background }: CharacterType) {
   return (
     <section id="character" className={Styles.characters}>
-      <Row>
-        <Col>
+      <Row className={Styles.characterContain}>
+        <Col className={Styles.characterDes}>
           <div className={Styles.characterAvatar}>
             <Image src={background} alt="character-1-bg" layout="fill" objectFit="cover" />
             <Image src={image} alt="character-1" />
