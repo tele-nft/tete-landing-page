@@ -14,7 +14,7 @@ export default function Introduction() {
                         GunHunter is an NFT game and metaverses ecosystem that intends to create a Universe of Fighting between players on
                         Binance Smart Chains, Polygon, Solona, Polkadot, ...where millions of players from all over the world.
                     </p>
-                    <img src="./images/thumbnail.jpg" alt="thumbnail" />
+                    <img id="thumbnail" src="./images/thumbnail.jpg" alt="thumbnail" />
                 </Row>
             </Container>
         </section>
