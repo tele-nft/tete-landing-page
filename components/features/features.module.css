@@ -1,19 +1,21 @@
-.features{
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.features {
     background-image: url("/images/features.jpg");
     background-size: cover;
     padding-bottom: 50px;
 }
 
-.feature{
+.feature {
     text-align: center;
 }
 
-.feature img{
+.feature img {
     width: 250px;
     height: 250px;
 }
 
-.feature h3{   
+.feature h3 {
+    font-family: 'Luckiest Guy', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -21,7 +23,7 @@
     color: #FFFFFF;
 }
 
-.feature h4{
+.feature h4 {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
