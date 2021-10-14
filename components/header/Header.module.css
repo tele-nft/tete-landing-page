@@ -1,51 +1,59 @@
 .header {
-    height: 80px;
-    padding-top: .5rem;
-    padding-bottom: .5rem;    
-    font-family: "AgencyFB";
+  height: 80px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: 'AgencyFB';
 }
 .nav-item {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 .nav-link {
-   color: #ffffff !important;
-   font-size: 25px;
+  color: #ffffff !important;
+  font-size: 25px;
 }
 .navbar {
-    padding: 10px 0px;
-    line-height: 50px;
-    background: #EF4BF2;
+  padding: 10px 0px;
+  line-height: 50px;
+  background: #ef4bf2;
+  min-height: 80px;
 }
 .sticky {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 91;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 91;
 }
 .sticky .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px 15px;
-    width: 100%;
-    box-shadow: 0px 6px 13px 0px rgb(0 0 0 / 6%);
-    opacity: 0;
-    -webkit-animation: fadeInDown 0.95s ease-in-out 0s 1 normal none running;
-    animation: fadeInDown 0.95s ease-in-out 0s 1 normal none running;
-    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 15px;
+  width: 100%;
+  box-shadow: 0px 6px 13px 0px rgb(0 0 0 / 6%);
+  opacity: 0;
+  -webkit-animation: fadeInDown 0.95s ease-in-out 0s 1 normal none running;
+  animation: fadeInDown 0.95s ease-in-out 0s 1 normal none running;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
-.logo{
-    position: absolute;
-    top:0.5rem;   
+.logo {
+  position: absolute;
+  top: 0.5rem;
 }
 
-.logo img{
-    height: 6.25rem;
-    width: auto;
+.logo img {
+  height: 6.25rem;
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    top: 5px;
+    right: 10px;
+  }
 }
