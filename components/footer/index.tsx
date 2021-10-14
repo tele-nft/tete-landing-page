@@ -128,7 +128,11 @@ export default function Footer() {
             <Link href="/privace-policy">
               <a className={Styles.link}>Privacy Policy</a>
             </Link>
-            {/* Copyright 2021 by GunHunterNFT */}
+          </div>
+          <div>
+            <p className={Styles.textCopy}>
+              Copyright &#9400; 2021 by GunHunterNFT{" "}
+            </p>
           </div>
         </div>
       </div>
