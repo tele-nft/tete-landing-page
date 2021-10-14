@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 .header {
   height: 80px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-family: 'AgencyFB';
+  font-family: 'Luckiest Guy', sans-serif;
 }
+
 .nav-item {
   padding-left: 50px;
 }
+
 .nav-link {
   color: #ffffff !important;
   font-size: 25px;
 }
+
 .navbar {
   padding: 10px 0px;
   line-height: 50px;
   background: #ef4bf2;
   min-height: 80px;
 }
+
 .sticky {
   position: absolute;
   top: 0;
@@ -24,6 +29,7 @@
   width: 100%;
   z-index: 91;
 }
+
 .sticky .navbar {
   position: fixed;
   top: 0;
