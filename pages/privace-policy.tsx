@@ -1,18 +1,11 @@
 import Head from "next/head";
 
-import Ecosystem from "../components/ecosystem";
-import Features from "../components/features";
-import Header from "../components/header";
-import Heros from "../components/heros";
-import Introduction from "../components/introduction";
-import TokenMetrics from "../components/token-metrics";
-// import Legal from "../components/legal";
-import Footer from "../components/footer";
-import RoadMap from "../components/road-map";
-
+import Legal from "../components/legal";
 import type, { NextPage } from "next";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
-const Home: NextPage = () => {
+const Privacy: NextPage = () => {
   return (
     <div>
       <Head>
@@ -28,16 +21,10 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <Introduction />
-      <Ecosystem />
-      <Features />
-      <Heros />
-      <TokenMetrics />
-      <RoadMap />
+      <Legal />
       <Footer />
-      {/* <Legal/>  */}
     </div>
   );
 };
 
-export default Home;
+export default Privacy;
