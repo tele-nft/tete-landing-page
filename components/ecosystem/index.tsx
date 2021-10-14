@@ -18,16 +18,17 @@ export default function Ecosystem() {
           <div className={Styles.description}>
             <p>
               GunHunter is an NFT game ecosystem that intends to create a Universe of Fighting between players on
-              Binance Smart Chains, Polygon, Solona, Polkadot, ...where millions of players from all over the world may
+              Binance Smart Chains, Polygon, Solana, Polkadot, ...where millions of players from all over the world may
               participate in NFT gaming blockchain in a simple, fast, and exciting way.
             </p>
             <p>
               GunHunter will become one of the most popular metaverses for players all over the world to compete in,
-              eventually forming an e-sports<span className={Styles['read-more']}>...Read more</span>
+              eventually forming an e-sports
+              <span className={Styles['read-more']}>...Read more</span>
             </p>
           </div>
-          {/* </Col> */}
-          {/* <Col xs={7}></Col> */}
+          {/* </Col>
+          <Col xs={7}></Col> */}
         </Row>
       </Container>
     </section>
