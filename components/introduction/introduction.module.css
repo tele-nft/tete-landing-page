@@ -1,19 +1,25 @@
-.introduction{
-    background-image: url("/images/intro-bg.jpg");
-    background-size: cover;
+.introduction {
+  background-image: url('/images/intro-bg.jpg');
+  background-size: cover;
 }
 
-.content{
-    font-weight: normal;
-    font-size: 40px;
+.content {
+  font-weight: normal;
+  font-size: 40px;
 }
 
-.button{
-    background: none;
-    border: none;
+.button {
+  background: none;
+  border: none;
 }
 
-.connect{
-    flex-direction: row-reverse;
-    margin-bottom: 1rem;
+.connect {
+  flex-direction: row-reverse;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    font-size: 25px;
+  }
 }

@@ -1,11 +1,17 @@
 .title {
-    font-family: 'Luckiest Guy', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 64px;
-    color: #ffffff;
-    margin-bottom: 50px;
-    padding-top: 30px;
+  font-family: 'Luckiest Guy', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 64px;
+  color: #ffffff;
+  margin-bottom: 50px;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
 }

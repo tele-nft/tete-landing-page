@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Collapse, Container, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import Image from 'next/image';
 
 import Styles from './Header.module.css';
 
@@ -25,8 +26,8 @@ export default function Header() {
     <header className={`${Styles.header} ${sticky ? Styles.sticky : ''}`}>
       <Navbar light expand="md" className={Styles.navbar} fixed="top">
         <Container>
-          <NavbarBrand className={Styles.logo} href="/">
-            <img src="./images/logo.png" alt="logo" />
+          <NavbarBrand href="/">
+            <img className={Styles.logo} src="/images/logo.png" alt="logo" />
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
