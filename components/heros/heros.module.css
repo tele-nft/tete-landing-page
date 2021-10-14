@@ -10,6 +10,11 @@
   border-bottom: 40px solid #ef4bf2;
 }
 
+.description {
+  font-weight: normal;
+  font-size: 20px;
+}
+
 /* .characterAvatar {
   width: 140px;
   height: 180px;
