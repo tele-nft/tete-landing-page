@@ -53,6 +53,10 @@
   height: 6.25rem;
 }
 
+.brand {
+  width: 100px;
+}
+
 @media screen and (max-width: 1200px) {
   .nav-item {
     padding-left: 10px;
@@ -62,15 +66,27 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .logo {
     top: 5px;
     height: 4rem;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .header {
-    height: 130px;
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .nav-item {
+    padding-left: 0px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .brand {
+    width: 50px;
+  }
+
+  .logo {
+    top: 20px;
+    height: 5rem;
   }
 }

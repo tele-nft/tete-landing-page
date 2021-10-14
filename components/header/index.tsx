@@ -26,7 +26,7 @@ export default function Header() {
     <header className={`${Styles.header} ${sticky ? Styles.sticky : ''}`}>
       <Navbar light expand="md" className={Styles.navbar} fixed="top">
         <Container>
-          <NavbarBrand href="/">
+          <NavbarBrand href="/" className={Styles.brand}>
             <img className={Styles.logo} src="/images/logo.png" alt="logo" />
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
