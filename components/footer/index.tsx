@@ -15,7 +15,7 @@ export default function Footer() {
             >
               Follow us on
             </p>
-            <br />
+            {/* <br /> */}
             <div
               data-w-id="b80a8957-8d10-2ff8-6e29-17f4a62bedea"
               className="divsocialicons"
@@ -128,19 +128,8 @@ export default function Footer() {
             <Link href="/privace-policy">
               <a className={Styles.link}>Privacy Policy</a>
             </Link>
-            {/* <a
-              href="/"
-              aria-current="page"
-              className="link sub-menu w--current"
-            >
-              {" "}
-             
-            </a> */}
+            {/* Copyright 2021 by GunHunterNFT */}
           </div>
-          <div
-            data-w-id="cce639c3-4147-fc63-0e56-76b5e528e640"
-            className="div-addresslogo hide"
-          ></div>
         </div>
       </div>
     </section>
