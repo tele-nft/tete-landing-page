@@ -23,6 +23,7 @@ export default function Footer() {
               <a
                 href="http://t.me/GunHunterNftOfficial "
                 target="_blank"
+                rel="noreferrer"
                 className={Styles.social}
               >
                 <img
@@ -36,6 +37,7 @@ export default function Footer() {
               <a
                 href="https://discord.gg/9hVZWjMK6y"
                 target="_blank"
+                rel="noreferrer"
                 className={Styles.social}
               >
                 <img
@@ -48,6 +50,7 @@ export default function Footer() {
               <a
                 href="https://twitter.com/GunHunterNFT"
                 target="_blank"
+                rel="noreferrer"
                 className={Styles.social}
               >
                 <img
@@ -60,6 +63,7 @@ export default function Footer() {
               <a
                 href="https://www.facebook.com/GunHunter-NFT-102296442234796"
                 target="_blank"
+                rel="noreferrer"
                 className={Styles.social}
               >
                 <img
@@ -72,6 +76,7 @@ export default function Footer() {
               <a
                 href="https://www.youtube.com/channel/UCZBYirzX--pcuGrG69R6XwA"
                 target="_blank"
+                rel="noreferrer"
                 className={Styles.social}
               >
                 <img
@@ -84,6 +89,7 @@ export default function Footer() {
               <a
                 href="http://t.me/GunHunterChannel"
                 target="_blank"
+                rel="noreferrer"
                 className={Styles.social}
               >
                 <img
@@ -96,6 +102,7 @@ export default function Footer() {
               <a
                 href="https://gunhunternft.gitbook.io/whitepaper"
                 target="_blank"
+                rel="noreferrer"
                 className={Styles.social}
               >
                 <img
@@ -118,11 +125,9 @@ export default function Footer() {
             <Link href="/privace-policy">
               <a className={Styles.link}>Terms of Service</a>
             </Link>
-
             <Link href="/privace-policy">
               <a className={Styles.link}>Privacy Policy</a>
             </Link>
-
             {/* <a
               href="/"
               aria-current="page"
