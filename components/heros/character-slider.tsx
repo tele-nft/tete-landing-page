@@ -5,6 +5,7 @@ import Carousel from 'react-material-ui-carousel';
 
 import Character from './character';
 import Styles from './heros.module.css';
+import CharacterSelection from './character-selection';
 
 export default function CharacterSlider({ data }: { data: any }) {
   const [select, setSelect] = useState(0);
@@ -19,21 +20,7 @@ export default function CharacterSlider({ data }: { data: any }) {
 
   return (
     <div className={Styles.characterSlider}>
-      <Row className={Styles.characterSliderContain}>
-        {data.map((item: any, key: number) => (
-          <Col
-            className={select === key ? Styles.containAvatarSelect : Styles.containAvatar}
-            key={key}
-            onClick={() => handleSelect(key)}
-          >
-            <div className={Styles.avatar}>
-              <Image src={item.background} alt="character-1-bg" layout="fill" objectFit="cover" />
-              <Image src={item.image} alt="character-1" />
-            </div>
-            <p className={Styles.type}>{item.type}</p>
-          </Col>
-        ))}
-      </Row>
+      <CharacterSelection {...{ data, select, handleSelect }} />
       <Carousel className={Styles.carousel} autoPlay={false} index={select} onChange={handleChange}>
         {data.map((item: any, key: number) => (
           <Character key={key} {...{ ...item }} />
