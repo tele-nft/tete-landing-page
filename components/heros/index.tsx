@@ -14,7 +14,8 @@ const data = [
     maxim: [`"Wanna kill me? Ask my guns."`, `"We all know that I am the best."`],
     star: 3,
     image: require('public/images/character-1.png'),
-    background: require('public/images/character-1-bg.png')
+    background: require('public/images/character-1-bg.png'),
+    type: 'Lizard'
   },
   {
     name: 'Ace Wyatt',
@@ -26,7 +27,8 @@ const data = [
     ],
     star: 5,
     image: require('public/images/character-2.png'),
-    background: require('public/images/character-2-bg.png')
+    background: require('public/images/character-2-bg.png'),
+    type: 'Wolf'
   },
   {
     name: 'Gary Dan Maverick',
@@ -38,7 +40,8 @@ const data = [
     ],
     star: 4,
     image: require('public/images/character-3.png'),
-    background: require('public/images/character-3-bg.png')
+    background: require('public/images/character-3-bg.png'),
+    type: 'Pig'
   },
   {
     name: 'Emyrs Quinn',
@@ -47,7 +50,8 @@ const data = [
     maxim: [`"I can see everything even your death."`, `"Ladies do not start fights, but they can finish them."`],
     star: 4,
     image: require('public/images/character-4.png'),
-    background: require('public/images/character-4-bg.png')
+    background: require('public/images/character-4-bg.png'),
+    type: 'Squirrel'
   }
 ];
 

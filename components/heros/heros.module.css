@@ -3,11 +3,49 @@
   background-size: cover;
 }
 
-.characterAvatar {
-  width: 140px;
-  height: 180px;
+.containAvatar {
+  background-image: url('/images/character-item-bg.png');
+  background-size: contain;
+  width: 100px;
+  height: 140px;
   position: relative;
-  border-bottom: 40px solid #ef4bf2;
+  background-color: #ef4bf2;
+  filter: grayscale(1);
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.containAvatarSelect {
+  background-image: url('/images/character-item-bg.png');
+  background-size: contain;
+  width: 100px;
+  height: 140px;
+  position: relative;
+  background-color: #ef4bf2;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.avatar {
+  top: -5px;
+  left: 5px;
+  right: -5px;
+  bottom: 40px;
+  position: absolute;
+  border: 5px solid rgb(255, 179, 65);
+  box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.type {
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  margin: 0;
+  font-family: 'Luckiest Guy', sans-serif;
+  text-align: center;
 }
 
 .description {
@@ -15,12 +53,15 @@
   font-size: 20px;
 }
 
-/* .characterAvatar {
-  width: 140px;
-  height: 180px;
+.characterSlider {
   position: relative;
-  border-bottom: 40px solid #ef4bf2;
-} */
+}
+
+.characterSliderContain {
+  position: absolute;
+  z-index: 9999;
+  padding: 0 10px;
+}
 
 .characterContain {
   flex-wrap: wrap-reverse;
@@ -32,14 +73,16 @@
 
 .characterImg {
   position: relative;
-  border: 5px solid #ef4bf2;
+  border: 10px solid #ef4bf2;
   min-width: 350px;
 }
 
 .characterName {
-  font-size: 53px;
+  font-family: 'Luckiest Guy', sans-serif;
+  font-size: 40px;
   margin-bottom: 0;
   text-transform: uppercase;
+  margin-top: 180px;
 }
 
 .maxim {
@@ -60,7 +103,7 @@
 }
 
 @media screen and (max-width: 992px) {
-  .characterAvatar {
-    display: none;
+  .characterName {
+    margin-top: 40px;
   }
 }
