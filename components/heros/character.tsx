@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
 import Image from 'next/image';
-import ClassNames from 'classnames';
 
 import Styles from './heros.module.css';
 
