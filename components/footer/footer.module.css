@@ -1,0 +1,22 @@
+.footer {
+    background-color: #221b51;
+    padding: 40px 40px;
+}
+
+.social {
+    margin-right: 30px;
+}
+
+.submenu {
+    border-top: 2px solid #606060;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.link {
+    margin-right: 15px;
+}
+
+.textCopy {
+    text-align: center;
+}
