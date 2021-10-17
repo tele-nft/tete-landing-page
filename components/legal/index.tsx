@@ -15,7 +15,7 @@ export default function Legal() {
         </Row>
         <Row className={Styles.privace}>
           <h4>
-            Your privacy is important to us. It is GunHunTer Inc.’s policy to
+            Your privacy is important to us. It is GunHunTer ’s policy to
             respect your privacy regarding any information we may collect from
             you across our website and mobile applications we own and operate
             (“Platforms”).
@@ -140,8 +140,7 @@ export default function Legal() {
             Your continued use of our Platforms will be regarded as acceptance
             of our practices around privacy and personal information. If you
             have any questions about how we handle user data and personal
-            information, feel free to contact us on
-            hellothere@thecryptoprophecies.com
+            information, feel free to contact us on gunhunternft.us
             <br />
             <br />
             This policy is effective as of 1 January 2021.
