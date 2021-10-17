@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import Styles from './Header.module.css';
 
-export default function Header() {
+export default function Header({ baseURL = '' }) {
   const [isOpen, setIsOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
 
@@ -33,32 +33,32 @@ export default function Header() {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               <NavItem className={Styles['nav-item']}>
-                <NavLink className={Styles['nav-link']} href="#introduction">
+                <NavLink className={Styles['nav-link']} href={`${baseURL}#introduction`}>
                   Introduction
                 </NavLink>
               </NavItem>
               <NavItem className={Styles['nav-item']}>
-                <NavLink className={Styles['nav-link']} href="#ecosystem">
+                <NavLink className={Styles['nav-link']} href={`${baseURL}#ecosystem`}>
                   Ecosystem
                 </NavLink>
               </NavItem>
               <NavItem className={Styles['nav-item']}>
-                <NavLink className={Styles['nav-link']} href="#features">
+                <NavLink className={Styles['nav-link']} href={`${baseURL}#features`}>
                   Features
                 </NavLink>
               </NavItem>
               <NavItem className={Styles['nav-item']}>
-                <NavLink className={Styles['nav-link']} href="#characters">
+                <NavLink className={Styles['nav-link']} href={`${baseURL}#characters`}>
                   Characters
                 </NavLink>
               </NavItem>
               <NavItem className={Styles['nav-item']}>
-                <NavLink className={Styles['nav-link']} href="#token-metrics">
+                <NavLink className={Styles['nav-link']} href={`${baseURL}#token-metrics`}>
                   Token Metrics
                 </NavLink>
               </NavItem>
               <NavItem className={Styles['nav-item']}>
-                <NavLink className={Styles['nav-link']} href="#road-map">
+                <NavLink className={Styles['nav-link']} href={`${baseURL}#road-map`}>
                   Road Map
                 </NavLink>
               </NavItem>

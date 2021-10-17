@@ -1,8 +1,40 @@
-.token-metrics{
-    background-image: url("/images/token-metrics-bg.png");
-    background-size: cover;
+.token-metrics {
+  background-image: url('/images/token-metrics-bg.png');
+  background-size: cover;
 }
 
-.token{
-    margin-left: 75px;
+.token {
+  margin-left: 75px;
+}
+
+.tokenInfo {
+  font-size: 25px;
+  list-style-type: square;
+  padding: 0 50px;
+  margin-bottom: 80px;
+}
+
+.tokenInfo ol li {
+  margin: 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+.tokenInfo ol li:after {
+  content: '';
+  height: 0.4em;
+  width: 0.4em;
+  background: #d2153a;
+  display: block;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 16px;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .tokenInfo {
+    font-size: 15px;
+    padding: 0 30px;
+  }
 }
