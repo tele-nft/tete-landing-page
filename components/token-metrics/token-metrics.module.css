@@ -37,4 +37,12 @@
     font-size: 14px;
     padding: 0 27px;
   }
+
+  .tokenInfo ol li {
+    padding-left: 15px;
+  }
+
+  .tokenInfo ol li:after {
+    top: 7px;
+  }
 }
