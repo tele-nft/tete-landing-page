@@ -101,7 +101,7 @@ export default function Term() {
             whatsoever caused in reliance upon such information or services.
             Please be aware of the risks involved with any trading done in any
             financial market. Do not trade with money that you cannot afford to
-            lose. When in doubt, you should consult a qualified financial
+            lose, when in doubt, you should consult a qualified financial
             advisor before making any investment decisions.
             <br />
             <br />
