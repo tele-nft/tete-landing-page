@@ -15,31 +15,48 @@ export default function Term() {
         </Row>
         <Row className={Styles.terms}>
           <h4>
-            Your privacy is important to GunHunterNFT.. This privacy statement
-            provides information about the personal information that
-            GunHunterNFT. collects, and the ways in which GunHunterNFT. uses
-            that personal information.
+            Your privacy is important to GunHunterNFT.
+            <br />
+            . This privacy statement provides information about the personal
+            information that GunHunterNFT. collects, and the ways in which
+            GunHunterNFT. uses that personal information.
             <br />
             <br />
             Personal information collection GunHunterNFT. may collect and use
-            the following kinds of personal information: • information about
-            your use of the Platforms; • information that you provide using for
-            the purpose of registering with the Platforms (including any
-            personal details such as your name, email address, profile picture
-            etc); • information about transactions carried out over the
-            Platforms; • information about the browser details; information
-            about your location; • information that you provide for the purpose
-            of subscribing to the Platforms services; and • any other
-            information that you share with GunHunterNFT..
+            the following kinds of personal information:
+            <br />
+            • information about your use of the Platforms;
+            <br />
+            • information that you provide using for the purpose of registering
+            with the Platforms (including any personal details such as your
+            name, email address, profile picture etc);
+            <br />
+            • information about transactions carried out over the Platforms;
+            <br />
+            • information about the browser details; information about your
+            location;
+            <br />
+            • information that you provide for the purpose of subscribing to the
+            Platforms services;
+            <br />
+            • any other information that you share with GunHunterNFT..
             <br />
             <br />
             Using personal information GunHunterNFT. may use your personal
-            information to: • administer the Platforms; personalize the Platform
-            for you; • enable your access to and use of the Platforms services;
-            • publish information about you on the Platforms; • send you
-            products that you purchase or redeem; • supply you services that you
-            purchase; • send you marketing communications (from us or any third
-            parties you authorize through us).
+            information to:
+            <br />s • administer the Platforms; personalize the Platform for
+            you;
+            <br />
+            • enable your access to and use of the Platforms services;
+            <br />
+            • publish information about you on the Platforms;
+            <br />
+            • send you products that you purchase or redeem;
+            <br />
+            • supply you services that you purchase;
+            <br />
+            • send you marketing communications (from us or any third parties
+            you authorize through us).
             <br />
             <br />
             Where GunHunterNFT. discloses your personal information to its
