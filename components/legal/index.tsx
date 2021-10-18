@@ -140,7 +140,7 @@ export default function Legal() {
             Your continued use of our Platforms will be regarded as acceptance
             of our practices around privacy and personal information. If you
             have any questions about how we handle user data and personal
-            information, feel free to contact us on contact@GunHunterNFTnft.us
+            information, feel free to contact us on contact@GunHunterNFT.us
             <br />
             <br />
             This policy is effective as of 1 January 2021.
