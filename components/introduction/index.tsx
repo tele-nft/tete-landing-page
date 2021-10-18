@@ -11,10 +11,11 @@ export default function Introduction() {
         <Row>
           <Title text="Introduction" />
           <p className={Styles.content}>
-            GunHunter is an NFT game and metaverses ecosystem that intends to
-            create a Universe of Fighting between players on Binance Smart
-            Chains, Polygon, Solana, Polkadot, ...where millions of players from
-            all over the world.
+            GunHunter is an NFT game ecosystem that intends to create a Universe
+            of Fighting between players on Binance Smart Chains, Polygon,
+            Solana, Polkadot, ...where millions of players from all over the
+            world may participate in NFT gaming blockchain in a simple, fast,
+            and exciting way.
           </p>
           <img id="thumbnail" src="./images/thumbnail.jpg" alt="thumbnail" />
         </Row>
