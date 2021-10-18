@@ -21,8 +21,8 @@ export default function TokenMetrics() {
             <li>
               Name: <b>GunHunter NFT</b>
             </li>
-            <li>Symbol: GHTTotal</li>
-            <li>Supply : 1,000,000,000</li>
+            <li>Symbol: GHT</li>
+            <li>Total Supply : 1,000,000,000</li>
             <li>
               Decimals: <b>9</b>
             </li>
