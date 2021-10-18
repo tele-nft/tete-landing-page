@@ -25,9 +25,8 @@ export default function Term() {
             . uses that personal information.
             <br />
             <br />
-            Personal information collection GunHunterNFT
-            <br />
-            . may collect and use the following kinds of personal information:
+            Personal information collection GunHunterNFT. may collect and use
+            the following kinds of personal information:
             <br />
             • information about your use of the Platforms;
             <br />
@@ -46,9 +45,8 @@ export default function Term() {
             • any other information that you share with GunHunterNFT..
             <br />
             <br />
-            Using personal information GunHunterNFT
-            <br />
-            . may use your personal information to:
+            Using personal information GunHunterNFT . may use your personal
+            information to:
             <br />
             • administer the Platforms; personalize the Platform for you;
             <br />
