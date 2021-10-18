@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.terms {
+    background-color: #392f7c;
+}
+
+.terms img {
+    width: 250px;
+    height: 250px;
+}
+
+.terms h3 {
+    font-family: 'Luckiest Guy', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.termss h4 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: start;
+}

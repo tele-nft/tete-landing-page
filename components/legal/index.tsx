@@ -15,7 +15,7 @@ export default function Legal() {
         </Row>
         <Row className={Styles.privace}>
           <h4>
-            Your privacy is important to us. It is GunHunTer ’s policy to
+            Your privacy is important to us. It is GunHunterNFT ’s policy to
             respect your privacy regarding any information we may collect from
             you across our website and mobile applications we own and operate
             (“Platforms”).
@@ -42,7 +42,7 @@ export default function Legal() {
             <br />
             ‍Personal information collection
             <br />
-            ‍GunHunTer may collect and use the following kinds of personal
+            ‍GunHunterNFT may collect and use the following kinds of personal
             information: • information about your use of the Platforms;
             <br />
             • information that you provide using for the purpose of registering
@@ -57,12 +57,12 @@ export default function Legal() {
             • information that you provide for the purpose of subscribing to the
             Platforms services; and
             <br />
-            any other information that you share with GunHunTer.
+            any other information that you share with GunHunterNFT.
             <br />
             <br />
             ‍Using personal information
             <br />
-            ‍ • GunHunTer may use your personal information to:administer the
+            ‍ • GunHunterNFT may use your personal information to:administer the
             Platforms;
             <br />
             • personalize the Platform for you;
@@ -79,14 +79,14 @@ export default function Legal() {
             you authorize through us).
             <br />
             <br />
-            Where GunHunTer discloses your personal information to its agents or
-            sub-contractors for these purposes, the agent or sub-contractor in
-            question will be obligated to use that personal information in
+            Where GunHunterNFT discloses your personal information to its agents
+            or sub-contractors for these purposes, the agent or sub-contractor
+            in question will be obligated to use that personal information in
             accordance with the terms of this privacy statement.
             <br />
             <br />
             In addition to the disclosures reasonably necessary for the purposes
-            identified elsewhere above, GunHunTer may disclose your personal
+            identified elsewhere above, GunHunterNFT may disclose your personal
             information to the extent that it is required to do so by law, in
             connection with any legal proceedings or prospective legal
             proceedings, and in order to establish, exercise or defend its legal
@@ -96,19 +96,19 @@ export default function Legal() {
             ‍Securing your data
             <br />
             <br />
-            ‍GunHunTer will take reasonable technical and organisational
+            ‍GunHunterNFT will take reasonable technical and organisational
             precautions to prevent the loss, misuse or alteration of your
-            personal information. GunHunTer will store some of the personal
+            personal information. GunHunterNFT will store some of the personal
             information you provide on its secure servers.
             <br />
             <br />
             ‍Cross-border data transfers
             <br />
             <br />
-            ‍Information that GunHunTer collects may be stored and processed in
-            and transferred between any of the countries in which GunHunTer
-            operates to enable the use of the information in accordance with
-            this privacy policy.
+            ‍Information that GunHunterNFT collects may be stored and processed
+            in and transferred between any of the countries in which
+            GunHunterNFT operates to enable the use of the information in
+            accordance with this privacy policy.
             <br />
             <br />
             In addition, personal information that you submit for publication on
@@ -120,9 +120,9 @@ export default function Legal() {
             Updating this statement
             <br />
             <br />
-            ‍GunHunTer may update this privacy policy by posting a new version
-            on this website. You should check this page occasionally to ensure
-            you are familiar with any changes.
+            ‍GunHunterNFT may update this privacy policy by posting a new
+            version on this website. You should check this page occasionally to
+            ensure you are familiar with any changes.
             <br />
             <br />
             ‍Other websites
@@ -140,7 +140,7 @@ export default function Legal() {
             Your continued use of our Platforms will be regarded as acceptance
             of our practices around privacy and personal information. If you
             have any questions about how we handle user data and personal
-            information, feel free to contact us on gunhunternft.us
+            information, feel free to contact us on contact@GunHunterNFTnft.us
             <br />
             <br />
             This policy is effective as of 1 January 2021.
