@@ -18,12 +18,16 @@ export default function Term() {
             Your privacy is important to GunHunterNFT.
             <br />
             . This privacy statement provides information about the personal
-            information that GunHunterNFT. collects, and the ways in which
-            GunHunterNFT. uses that personal information.
+            information that GunHunterNFT
+            <br />
+            . collects, and the ways in which GunHunterNFT
+            <br />
+            . uses that personal information.
             <br />
             <br />
-            Personal information collection GunHunterNFT. may collect and use
-            the following kinds of personal information:
+            Personal information collection GunHunterNFT
+            <br />
+            . may collect and use the following kinds of personal information:
             <br />
             • information about your use of the Platforms;
             <br />
@@ -42,10 +46,11 @@ export default function Term() {
             • any other information that you share with GunHunterNFT..
             <br />
             <br />
-            Using personal information GunHunterNFT. may use your personal
-            information to:
-            <br />s • administer the Platforms; personalize the Platform for
-            you;
+            Using personal information GunHunterNFT
+            <br />
+            . may use your personal information to:
+            <br />
+            • administer the Platforms; personalize the Platform for you;
             <br />
             • enable your access to and use of the Platforms services;
             <br />
@@ -104,9 +109,12 @@ export default function Term() {
             practices of any third party.
             <br />
             <br />
-            Contact GunHunterNFT. If you have any questions about this privacy
-            policy or GunHunterNFT.’s treatment of your personal information,
-            please contact by website :gunhunternft.us ——————————————
+            Contact GunHunterNFT.
+            <br />
+            If you have any questions about this privacy policy or
+            GunHunterNFT.’s treatment of your personal information, please
+            contact by website :gunhunternft.us ——————————————
+            <br />
             <br />
             Risk Disclosure GunHunterNFT. is not a registered broker, analyst,
             investment advisor or intending to offer any financial advice or
@@ -141,18 +149,23 @@ export default function Term() {
             fully understand these risks you must seek independent advice from
             your financial advisor.
             <br />
+            <br />
             All trading strategies are used at your own risk.
+            <br />
             <br />
             Any content on the Platforms should not be relied upon as advice or
             construed as providing recommendations of any kind. It is your
             responsibility to confirm and decide which trades to make.
             <br />
+            <br />
             Information provided on GunHunterNFT. Platforms is intended solely
             for informational purposes and is obtained from sources believed to
             be reliable. Information is in no way guaranteed.
             <br />
+            <br />
             No guarantee of any kind is implied or possible where projections of
             future conditions are attempted.
+            <br />
             <br />
             None of the content published on the Platforms constitutes a
             recommendation that any particular cryptocurrency, portfolio of
@@ -162,6 +175,7 @@ export default function Term() {
             potential, value or suitability of any particular cryptocurrency,
             portfolio of cryptocurrencies, transaction, investment strategy or
             other matter.
+            <br />
             <br />
             The services and content that we provide are solely for educational
             purposes. You acknowledge that you enter into any transactions
@@ -178,6 +192,7 @@ export default function Term() {
             for the impact, if any, of certain market factors, such as lack of
             liquidity. simulated trading programs in general are also subject to
             the fact that they are designed with the benefit of hindsight.
+            <br />
             <br />
             No representation is being made that your performance will or is
             likely to achieve profit or losses similar to those shown.
