@@ -99,7 +99,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="https://gunhunternft.gitbook.io/whitepaper"
+                // href="https://gunhunternft.gitbook.io/whitepaper"
                 target="_blank"
                 rel="noreferrer"
                 className={Styles.social}
@@ -121,7 +121,7 @@ export default function Footer() {
             data-w-id="cce639c3-4147-fc63-0e56-76b5e528e637"
             className={Styles.submenu}
           >
-            <Link href="/privace-policy">
+            <Link href="/term-services">
               <a className={Styles.link}>Terms of Service</a>
             </Link>
             <Link href="/privace-policy">
