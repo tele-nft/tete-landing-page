@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "reactstrap";
-import RoadMapImage from "public/images/roadmap.svg";
+// import RoadMapImage from "public/images/roadmap.svg";
+import Image from "next/image";
 import Title from "components/title";
 import Styles from "./roadmap.module.css";
 
@@ -8,8 +9,9 @@ export default function RoadMap() {
   return (
     <section id="road-map" className={Styles.roadmap}>
       <Container>
-        <Title text="roadmap" />
-        <RoadMapImage />
+        {/* <Title text="roadmap" /> */}
+        <Image src={require("public/images/roadmapnew.png")} />
+        {/* <RoadMapImage /> */}
       </Container>
     </section>
   );
