@@ -7,8 +7,8 @@ export default function CoreTeam() {
   return (
     <section id="core-team" className={Styles.coreteam}>
       <Container>
-        <Image src={require("public/images/ct1.jpeg")} />
-        <Image src={require("public/images/ct2.jpeg")} />
+        <Image src={require("public/images/ct3.jpeg")} />
+        <Image src={require("public/images/ct4.jpeg")} />
       </Container>
     </section>
   );
