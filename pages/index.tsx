@@ -6,7 +6,7 @@ import Header from "../components/header";
 import Heros from "../components/heros";
 import Introduction from "../components/introduction";
 import TokenMetrics from "../components/token-metrics";
-// import Legal from "../components/legal";
+import CoreTeam from "../components/core-team";
 import Footer from "../components/footer";
 import RoadMap from "../components/road-map";
 
@@ -34,6 +34,7 @@ const Home: NextPage = () => {
       <Heros />
       <TokenMetrics />
       <RoadMap />
+      <CoreTeam />
       <Footer />
       {/* <Legal/>  */}
     </div>
