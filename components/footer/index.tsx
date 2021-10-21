@@ -98,7 +98,7 @@ export default function Footer() {
                   className="iconsocial"
                 />
               </a>
-              <a
+              {/* <a
                 // href="https://gunhunternft.gitbook.io/whitepaper"
                 target="_blank"
                 rel="noreferrer"
@@ -110,7 +110,7 @@ export default function Footer() {
                   alt=""
                   className="iconsocial"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
           <div
