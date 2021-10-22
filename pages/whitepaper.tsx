@@ -1,18 +1,10 @@
 import Head from "next/head";
-
-import Ecosystem from "../components/ecosystem";
-import Features from "../components/features";
-import Header from "../components/header";
-import Heros from "../components/heros";
-import Introduction from "../components/introduction";
-import TokenMetrics from "../components/token-metrics";
-import CoreTeam from "../components/core-team";
-import Footer from "../components/footer";
-import RoadMap from "../components/road-map";
-
+import WhitePaper from "../components/whitepaper";
 import type, { NextPage } from "next";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
-const Home: NextPage = () => {
+const Whitepaper: NextPage = () => {
   return (
     <div>
       <Head>
@@ -27,17 +19,11 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <Header />
-      <Introduction />
-      <Ecosystem />
-      <Features />
-      <Heros />
-      <TokenMetrics />
-      <RoadMap />
-      <CoreTeam />
+      <Header baseURL="/" />
+      <WhitePaper />
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default Whitepaper;

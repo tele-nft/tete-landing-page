@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.whitepaper {
+  background-image: url('/images/roadmap-bg.png');
+  background-size: cover;
+  width: "100%";
+  display: "flex";
+}
