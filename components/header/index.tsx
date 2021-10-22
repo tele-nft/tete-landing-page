@@ -93,8 +93,8 @@ export default function Header({ baseURL = "" }) {
               <NavItem className={Styles["nav-item"]}>
                 <NavLink
                   className={Styles["nav-link"]}
-                  // href={`${baseURL}/whitepaper`}
-                  href="https://gunhunternft.gitbook.io/whitepaper"
+                  target="_blank"
+                  href="https://docs.gunhunternft.us/"
                 >
                   Whitepaper
                 </NavLink>
