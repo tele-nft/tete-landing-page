@@ -19,7 +19,7 @@ export default function CharacterSlider({ data }: { data: any }) {
   return (
     <div className={Styles.characterSlider}>
       <CharacterSelection {...{ data, select, handleSelect }} />
-      <Carousel className={Styles.carousel} index={select} onChange={handleChange}>
+      <Carousel className={Styles.carousel} index={select} onChange={handleChange} autoPlay={false}>
         {data.map((item: any, key: number) => (
           <Character key={key} {...{ ...item }} />
         ))}

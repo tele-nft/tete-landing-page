@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'reactstrap';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Title from '../title';
 import Styles from './token-metrics.module.css';
@@ -16,7 +17,13 @@ export default function TokenMetrics() {
         <Row className="d-flex flex-column align-items-center">
           <ul className={Styles.tokenInfo}>
             <li>
-              Smartcontract Address: <b>0x104A94356aDCf35c320D8F16958E7bB347a987ff</b>
+              Smartcontract Address:{' '}
+              <Link href="https://bscscan.com/address/0x104A94356aDCf35c320D8F16958E7bB347a987ff">
+                <a target="_blank" className={Styles.addressContain}>
+                  <p className={Styles.address}>0x104A94356aDCf35c320D8F16958E7bB347a9</p>
+                  <span>87ff</span>
+                </a>
+              </Link>
             </li>
             <li>
               Name: <b>GunHunter NFT</b>
