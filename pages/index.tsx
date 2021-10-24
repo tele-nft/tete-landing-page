@@ -9,7 +9,7 @@ import TokenMetrics from '../components/token-metrics';
 import CoreTeam from '../components/core-team';
 import Footer from '../components/footer';
 import RoadMap from '../components/road-map';
-import PartnerFeature from 'components/partner-feature';
+import Partner from 'components/partner';
 
 import type, { NextPage } from 'next';
 
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
       <TokenMetrics />
       <RoadMap />
       <CoreTeam />
-      {/* <PartnerFeature /> */}
+      <Partner />
       <Footer />
     </div>
   );
