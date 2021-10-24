@@ -1,16 +1,17 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-import Ecosystem from "../components/ecosystem";
-import Features from "../components/features";
-import Header from "../components/header";
-import Heros from "../components/heros";
-import Introduction from "../components/introduction";
-import TokenMetrics from "../components/token-metrics";
-import CoreTeam from "../components/core-team";
-import Footer from "../components/footer";
-import RoadMap from "../components/road-map";
+import Ecosystem from '../components/ecosystem';
+import Features from '../components/features';
+import Header from '../components/header';
+import Heros from '../components/heros';
+import Introduction from '../components/introduction';
+import TokenMetrics from '../components/token-metrics';
+import CoreTeam from '../components/core-team';
+import Footer from '../components/footer';
+import RoadMap from '../components/road-map';
+import PartnerFeature from 'components/partner-feature';
 
-import type, { NextPage } from "next";
+import type, { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
@@ -35,6 +36,7 @@ const Home: NextPage = () => {
       <TokenMetrics />
       <RoadMap />
       <CoreTeam />
+      {/* <PartnerFeature /> */}
       <Footer />
     </div>
   );

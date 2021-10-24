@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { Row, Col } from 'reactstrap';
-import Image from 'next/image';
 import Carousel from 'react-material-ui-carousel';
 
 import Character from './character';

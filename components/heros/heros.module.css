@@ -64,7 +64,7 @@
 }
 
 .characterContain {
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 }
 
 .characterDes {
@@ -108,5 +108,8 @@
   }
   .characterSelection {
     position: unset;
+  }
+  .characterImg {
+    margin-top: 20px;
   }
 }
