@@ -38,6 +38,7 @@
 
 .ecosystemContain {
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .ecosystemDes {
