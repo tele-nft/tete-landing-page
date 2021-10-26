@@ -130,6 +130,9 @@ export default function Footer() {
               <Link href="/privace-policy">
                 <a className={Styles.link}>Privacy Policy</a>
               </Link>
+              <Link href="mailto:contact@gunhunternft.us">
+                <a className={Styles.link}>Contacts</a>
+              </Link>
             </div>
             <Link href="https://docs.gunhunternft.us/">
               <a target="_blank">
