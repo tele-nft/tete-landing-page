@@ -69,8 +69,7 @@ export default function Footer() {
                                 <a className={Styles.link}>Contacts</a>
                             </Link>
                         </div>
-                        {/* <Link href="https://docs.gunhunternft.net/"> */}
-                          <Link href="https://gunhunternft.gitbook.io/whitepaper/">
+                        <Link href="https://docs.gunhunternft.net/">
                             <a target="_blank">
                                 <img className={Styles.whitepaperImg} src={'/images/whitepaper.png'} />
                                 <span>GunHunterNFT Whitepaper</span>
