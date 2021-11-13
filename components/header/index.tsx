@@ -72,16 +72,14 @@ export default function Header({ baseURL = '' }) {
                 </NavLink>
               </NavItem>
 
-              {/* <NavItem className={Styles["nav-item"]}>
+              <NavItem className={Styles["nav-item"]}>
                 <NavLink
                   className={Styles["nav-link"]}
-                  href={`${baseURL}/audit`}
-
-                  // href="https://gunhunternft.gitbook.io/whitepaper/audit/gunhunter-nft-audited"
+                  href="https://play.gunhunternft.net/"
                 >
-                  Audit
+                 Play Now 
                 </NavLink>
-              </NavItem> */}
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
