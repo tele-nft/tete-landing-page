@@ -1,17 +1,6 @@
-.info-banner {
-  background-color: rgb(239, 75, 242, 0.7);
-  border-radius: 11px;
-  width: 1104px;
-  padding: 25px 40px;
-  position: relative;
-  top: -70px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .ecosystem {
-  background-image: url('/images/eco-bg-1.jpg');
-  background-size: cover;
+  background-color: #120B38;
+  align-items: center;
 }
 
 .title {
@@ -24,11 +13,9 @@
 }
 
 .description {
-  margin-top: 1.875rem;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 37px;
+  margin: auto;
+  width: 65%;  
+  text-align: center;
 }
 
 .read-more {
@@ -63,11 +50,3 @@
   height: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  .title {
-    font-size: 40px;
-  }
-  .description {
-    font-size: 20px;
-  }
-}
