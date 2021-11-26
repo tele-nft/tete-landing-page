@@ -1,7 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-.coreteam {
-  background-image: url('/images/roadmap-bg.png');
-  background-size: cover;
-  width: "100%";
-  display: "flex";
+.content{
+  margin: auto;
+  width: 65%;
+  text-align: center;
+}
+
+.members{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.member{
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.name{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.role{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FF3392;
+  font-size: 18px;
+}
+
+.bio{
+  max-width: 300px;
 }

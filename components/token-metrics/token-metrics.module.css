@@ -1,59 +1,6 @@
-.token-metrics {
-  background-image: url('/images/token-metrics-bg.png');
-  background-size: cover;
-}
-
-.token {
-  margin-left: 75px;
-}
-
-.tokenInfo {
-  font-size: 25px;
-  list-style-type: square;
-  padding: 0 50px;
-  margin-bottom: 80px;
-}
-
-.tokenInfo ol li {
-  margin: 0;
-  padding-left: 30px;
-  position: relative;
-}
-
-.tokenInfo ol li:after {
-  content: '';
-  height: 0.4em;
-  width: 0.4em;
-  background: #d2153a;
-  display: block;
-  position: absolute;
-  transform: rotate(45deg);
-  top: 16px;
-  left: 0;
-}
-
-.address {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0;
-  margin-bottom: 0;
-}
-
-.addressContain {
-  display: flex;
-  color: #ff9500;
-}
-
-@media screen and (max-width: 767px) {
-  .tokenInfo {
-    font-size: 14px;
-    padding: 0 27px;
-  }
-  .tokenInfo ol li {
-    padding-left: 15px;
-  }
-  .tokenInfo ol li:after {
-    top: 7px;
-  }
+.total{
+  font-size: 50px;
+  color:aqua;
+  font-weight: bold;
+  text-align: center;
 }

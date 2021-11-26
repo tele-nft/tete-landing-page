@@ -1,45 +1,36 @@
 import React from "react";
-import { Col, Container, Row } from "reactstrap";
+import { Container, Row } from "reactstrap";
 
 import Title from "../title";
 import Styles from "./features.module.css";
 
 export default function Features() {
-  return (
-    <section id="features" className={Styles.features}>
-      <Container>
-        <Row>
-          <Title text="Features" />
-        </Row>
-        <Row className="">
-          <Col className={Styles.feature}>
-            <img src="./images/market-place.png" alt="market" />
-
-            <h3>MARKETPLACE</h3>
-            <h4>
-              Use the Marketplace to find your best Hunter and trade rare
-              equipment with other players.
-            </h4>
-          </Col>
-          <Col className={Styles.feature}>
-            <img src="./images/hero-farming.png" alt="hero" />
-            <h3>HUNTER FARMING</h3>
-            <h4>
-              In addition to participating in combat, they can let Hunter
-              automatically cultivate and harvest. A large amount of tokens will
-              automatically flow to your wallet.
-            </h4>
-          </Col>
-          <Col className={Styles.feature}>
-            <img src="./images/play-game.png" alt="game" />
-            <h3>PLAY GAME</h3>
-            <h4>
-              Prepare for Combat by shopping for the best Hunteres, training
-              your best Hunteres, and learning powerful skills
-            </h4>
-          </Col>
-        </Row>
-      </Container>
-    </section>
-  );
+    return (
+        <section id="features" className={Styles.features}>
+            <Container>
+                <Row>
+                    <Title text="Features" />
+                </Row>
+                <Row>
+                    <div className={Styles.list}>
+                        <div className={Styles.item}>
+                            <img src="./features/5.png" alt="5" />
+                        </div>
+                        <div className={Styles.item}>
+                            <img src="./features/2.png" alt="2" />
+                        </div>
+                        <div className={Styles.item}>
+                            <img src="./features/4.png" alt="4" />
+                        </div>
+                        <div className={Styles.item}>
+                            <img src="./features/3.png" alt="3" />
+                        </div>
+                        <div className={Styles.item}>
+                            <img src="./features/1.png" alt="1" />
+                        </div>
+                    </div>
+                </Row>
+            </Container>
+        </section>
+    );
 }

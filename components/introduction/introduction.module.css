@@ -1,11 +1,12 @@
 .introduction {
-    background-image: url('/images/intro-bg.jpg');
-    background-size: cover;
+  background-color: #120B38;
+  align-items: center;
 }
 
 .content {
-    font-weight: normal;
-    font-size: 25px;
+    margin: auto;
+    width: 65%;
+    text-align: center;
 }
 
 .button {
@@ -16,10 +17,40 @@
 .connect {
     flex-direction: row-reverse;
     margin-bottom: 1rem;
+    
 }
 
 @media screen and (max-width: 768px) {
     .content {
         font-size: 20px;
     }
+}
+
+.item {
+    background-color: #191959;
+    width: 350px;
+    height: 350px;   
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.slick-current .item{
+    transform: scale(1.2);
+}
+
+.item img{
+   height: 100%;
+   width: 100%;
+   margin: auto;
+}
+
+.subTitle{
+    text-align: center;
+    color: #FF3392;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "UTMCooperBlack";
 }

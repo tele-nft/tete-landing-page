@@ -1,7 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-.roadmap {
-  background-image: url('/images/roadmap-bg.png');
-  background-size: cover;
-  width: "100%";
-  display: "flex";
+.items{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item{
+  width: 20%;
+}
+
+.head{
+  height: 150px;
+  position: relative;
+  padding-top: 60px;
+}
+
+.head::before{ 
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to left top, rgba(170, 226, 255, 0) 0%, rgb(27, 165, 239) 100%);
+  filter: drop-shadow(rgba(23, 175, 255, 0.49) 0px 0px 6px);
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-radius: 50%;
+}
+
+.head::after{
+  content: "";
+  display: block;
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  border: 5px solid rgba(255, 255, 255, 0.8);
+  filter: drop-shadow(rgba(23, 175, 255, 0.49) 0px 0px 6px);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border-radius: 50%;
+}
+
+.content{
+  margin-top: -14px;
+}
+
+
+.line span{
+  width: 6px;
+  height: 170px;
+  background: linear-gradient(to top, rgba(181, 247, 255, 0) 0%, rgba(255, 255, 255, 0.6) 100%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.point{
+  margin-bottom: 17px;
+}
+
+.point span{
+  width: 19.53px;
+  height: 19.53px;
+  background: linear-gradient(to left top, rgba(170, 226, 255, 0) 0%, rgb(27, 165, 239) 100%);
+  filter: drop-shadow(rgba(23, 175, 255, 0.49) 0px 0px 6px);
+  transform: rotate(45deg);
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.point span::before{
+  position: absolute;
+  z-index: -1;
+  content: "";
+  display: block;
+  width: 14.93px;
+  height: 14.93px;
+  background: transparent;
+  border: 2px solid rgb(242, 242, 242);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.desc{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
+
+.item1{
+  padding-top: 185px;
+}
+
+.item1 .head::before{
+  background: linear-gradient(to left top, rgba(170, 199, 255, 0.36) 0%, rgb(0, 255, 156) 100%);
+  filter: drop-shadow(rgba(23, 175, 255, 0.49) 0px 0px 6px);
+}
+
+.item2{
+  padding-top: 140px;
+}
+
+.item2 .head::before{
+  background: linear-gradient(to left top, rgba(170, 199, 255, 0.36) 0%, rgb(27, 165, 239) 100%);
+}
+
+.item3{
+  padding-top: 95px;
+}
+
+.item3 .head::before{
+  background: linear-gradient(to left top, rgba(170, 199, 255, 0.36) 0%, rgb(108, 74, 255) 100%);
+}
+
+.item4{
+  padding-top: 50px;
+}
+
+.item4 .head::before{
+  background: linear-gradient(to left top, rgba(170, 199, 255, 0.36) 0%, rgb(255, 96, 237) 100%);
+}
+
+.item5 .head::before{
+  background: linear-gradient(to left top, rgba(170, 199, 255, 0.36) 0%, rgb(255, 90, 90) 100%);
 }
