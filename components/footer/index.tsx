@@ -36,16 +36,22 @@ export default function Footer() {
                         </Col>
                         <Col xs={4}>
                             <div className={Styles.head}>FAQ</div>
-
                             <ul className={Styles.items}>
                                 <li>
-                                    <Link href="/">
-                                        <a className={Styles.link}>Disclaimer</a>
+                                    <Link href="/term-services">
+                                        <a className={Styles.link}>Terms of Service</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/">
-                                        <a className={Styles.link}>Token MetricTerm & conditions</a>
+                                    <Link href="/privace-policy">
+                                        <a className={Styles.link}>Privacy Policy</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="https://docs.gunhunternft.net/">
+                                        <a target="_blank" className={Styles.link}>
+                                            Whitepaper
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>
@@ -55,18 +61,24 @@ export default function Footer() {
 
                             <ul className={Styles.items}>
                                 <li>
-                                    <Link href="/">
-                                        <a className={Styles.link}>Discord</a>
+                                    <Link href="https://discord.gg/9hVZWjMK6y">
+                                        <a target="_blank" className={Styles.link}>
+                                            Discord
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/">
-                                        <a className={Styles.link}>Twitter</a>
+                                    <Link href="https://twitter.com/GunHunterNFT">
+                                        <a target="_blank" className={Styles.link}>
+                                            Twitter
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/">
-                                        <a className={Styles.link}>Telegram</a>
+                                    <Link href="http://t.me/GunHunterChannel">
+                                        <a target="_blank" className={Styles.link}>
+                                            Telegram
+                                        </a>
                                     </Link>
                                 </li>
                             </ul>
