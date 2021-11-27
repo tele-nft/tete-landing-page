@@ -14,8 +14,6 @@ export default function Introduction() {
         speed: 500,
     };
 
-    const heroes = [{}];
-
     return (
         <section id="introduction" className={Styles.introduction}>
             <Container>

@@ -15,7 +15,6 @@ export default function Footer() {
                     <Row>
                         <Col xs={4}>
                             <div className={Styles.head}>About</div>
-
                             <ul className={Styles.items}>
                                 <li>
                                     <Link href="/">
