@@ -40,7 +40,6 @@ export default function Character({ name, description, maxim, star, image, backg
                 ))}
             </Col>
             <Col className={Styles.characterImg}>
-                <Image src={'/images/light_sang.gif'} alt="character-1-bg" layout="fill" objectFit="cover" />
                 <Image src={image} alt="character-1" />
             </Col>
         </Row>
