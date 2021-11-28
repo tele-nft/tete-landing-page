@@ -74,7 +74,7 @@ export default function Header({ baseURL = '' }) {
                 <NavLink
                   className={Styles['nav-link']}
                   target="_blank"
-                  href="https://www.pinksale.finance/#/launchpad/0xe84066bd47e6c22976D32Ff93e7077D3E92d111c?chain=BSC"
+                  href="https://www.pinksale.finance/#/launchpad/0x30186923A41eC8541a59C20a88dc0001310AC2E6?chain=BSC"
                 >
                   Presale
                 </NavLink>
