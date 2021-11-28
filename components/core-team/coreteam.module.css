@@ -14,6 +14,15 @@
   padding: 20px 10px;
 }
 
+.avatar{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  background-color: aquamarine;
+  border: 4mm ridge rgba(170, 50, 220, .6);
+  border-radius: 50%;
+}
+
 .name{
   text-transform: uppercase;
   font-weight: bold;
