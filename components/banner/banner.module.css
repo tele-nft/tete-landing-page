@@ -1,0 +1,11 @@
+.text{
+    font-family: "AmsiProCond-Black";
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text span{
+    color: #2538EF;
+}

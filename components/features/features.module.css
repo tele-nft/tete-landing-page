@@ -1,18 +1,12 @@
-
-.features {
-    padding-bottom: 50px;
-}
-
-.item{
-    text-align: center;
-    flex-grow: 2;
-    padding: 5px;
-}
-
 .list{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
+.item{
+    flex-grow: 2;
+    padding: 30px;
+    max-width: 350px;
+}

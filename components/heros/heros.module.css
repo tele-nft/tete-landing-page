@@ -1,120 +1,24 @@
-
-
-.containAvatar {
-  background-image: url('/images/character-item-bg.png');
-  background-size: contain;
-  width: 100px;
-  height: 140px;
-  position: relative;
-  background-color: #ef4bf2;
-  filter: grayscale(1);
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-.containAvatarSelect {
-  background-image: url('/images/character-item-bg.png');
-  background-size: contain;
-  width: 100px;
-  height: 140px;
-  position: relative;
-  background-color: #ef4bf2;
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-.avatar {
-  top: -5px;
-  left: 5px;
-  right: -5px;
-  bottom: 40px;
-  position: absolute;
-  border: 5px solid rgb(255, 179, 65);
-  box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.type {
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  position: absolute;
-  margin: 0;
-  font-family: 'Luckiest Guy', sans-serif;
-  text-align: center;
-}
-
-.description {
-  font-weight: normal;
-  font-size: 18px;
-  margin-left: 10px;
-}
-
-.characterSlider {
-  position: relative;
-}
-
-.characterSelection {
+.list{
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
-.selectionItem{
+.item{
+  flex-grow: 2;
   padding: 10px;
 }
 
-.characterContain {
-  flex-wrap: wrap;
-}
-
-.characterDes {
-  min-width: 350px;
-  background: url("/images/khung.png") no-repeat;
-}
-
-.characterImg {
-  position: relative;
+.claim{
   text-align: center;
 }
 
-.characterName {
-  margin-top: 10px;
-  margin-left: 5px;
-  font-size: 40px;
-  margin-bottom: 0;
-  font-family: "UTMCooperBlack";
-  color: #FF3392;
+.claim input[type="button"]{
+  background-color: #E8561C;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  color: #ffffff;
+  font-size: 25px;
   font-weight: bold;
-  text-transform: uppercase;
-}
-
-.maxim {
-  margin-bottom: 0;
-  margin-left: 10px;
-}
-
-.star {
-  padding-right: 10px !important;
-}
-
-.stars{
-  margin-top: 35px;
-  margin-left: 10px;
-}
-
-.carousel {
-  padding: 15px;
-}
-
-@media screen and (max-width: 992px) {
-  .characterName {
-    margin-top: 40px;
-  }
-  .characterSelection {
-    position: unset;
-  }
-  .characterImg {
-    margin-top: 20px;
-  }
 }

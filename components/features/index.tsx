@@ -1,36 +1,28 @@
-import React from "react";
-import { Container, Row } from "reactstrap";
+import Image from "next/image";
+import { Container } from "reactstrap";
 
-import Title from "../title";
-import Styles from "./features.module.css";
+import styles from "./features.module.css";
+
+const images = [
+  require("public/images/features/feature1.png"),
+  require("public/images/features/feature2.png"),
+  require("public/images/features/feature3.png"),
+  require("public/images/features/feature4.png"),
+  require("public/images/features/feature5.png"),
+];
 
 export default function Features() {
-    return (
-        <section id="features" className={Styles.features}>
-            <Container>
-                <Row>
-                    <Title text="Features" />
-                </Row>
-                <Row>
-                    <div className={Styles.list}>
-                        <div className={Styles.item}>
-                            <img src="./features/5.png" alt="5" />
-                        </div>
-                        <div className={Styles.item}>
-                            <img src="./features/2.png" alt="2" />
-                        </div>
-                        <div className={Styles.item}>
-                            <img src="./features/4.png" alt="4" />
-                        </div>
-                        <div className={Styles.item}>
-                            <img src="./features/3.png" alt="3" />
-                        </div>
-                        <div className={Styles.item}>
-                            <img src="./features/1.png" alt="1" />
-                        </div>
-                    </div>
-                </Row>
-            </Container>
-        </section>
-    );
+  return (
+    <section id="features">
+      <Container>
+        <div className={styles.list}>
+          {images.map((url, index) => (
+            <div key={index} className={styles.item}>
+              <Image src={url} />
+            </div>
+          ))}
+        </div>
+      </Container>
+    </section>
+  );
 }

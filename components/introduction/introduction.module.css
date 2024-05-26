@@ -1,12 +1,39 @@
 .introduction {
-  background-color: #120B38;
   align-items: center;
+}
+
+.title{
+    font-size : 70px;
+}
+
+.banner{
+    height: 320px;
+}
+
+.title span{
+    color : #2830CE;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.buttons input[type="button"]{
+    background-color: #E8561C;
+    color: #ffffff;
+    border-radius: 5px;
+    margin:15px;
+    font-weight: bold;
+    border: none;
+    width: 150px;
 }
 
 .content {
     margin: auto;
-    width: 65%;
-    text-align: center;
+    text-align: left;
+    font-family: "AmsiProCond-Black";
+    font-size : 25px;
+    color : #38388C;
 }
 
 .button {
@@ -17,7 +44,6 @@
 .connect {
     flex-direction: row-reverse;
     margin-bottom: 1rem;
-    
 }
 
 @media screen and (max-width: 768px) {

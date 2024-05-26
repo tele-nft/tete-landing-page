@@ -11,6 +11,17 @@
 }
 
 @font-face {
+  font-family: "AmsiProCond-Black";
+  src: url("https://db.onlinewebfonts.com/t/c056b003f96ba0a22f5015fe7ea8443c.eot");
+  src: url("https://db.onlinewebfonts.com/t/c056b003f96ba0a22f5015fe7ea8443c.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/c056b003f96ba0a22f5015fe7ea8443c.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/c056b003f96ba0a22f5015fe7ea8443c.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/c056b003f96ba0a22f5015fe7ea8443c.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/c056b003f96ba0a22f5015fe7ea8443c.svg#AmsiProCond-Black")format("svg");
+}
+
+
+@font-face {
   font-family: "UTMCooperBlack";
   src: url("/fonts/UTMCooperBlack.ttf") format('truetype');
   font-weight: normal;
@@ -21,10 +32,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat" !important;
+  font-family: "myriad-variable",sans-serif;
   font-size: 16px;
   line-height: 37px;
-  color: #ffffff;
+  color: #38388C;
   background-image: url("/images/bg.png");
 }
 
@@ -38,8 +49,7 @@ a {
 }
 
 section {
-  color: #ffffff;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   /* top: -10px; */
 }
