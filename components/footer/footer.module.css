@@ -52,3 +52,11 @@
   padding-left: 0;
 }
 
+.warning{
+  color: #ffffff;
+  text-align: center;
+}
+
+.warning span {
+  padding-right: 5px;
+}

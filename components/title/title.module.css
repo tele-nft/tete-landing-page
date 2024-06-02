@@ -1,11 +1,12 @@
 .title {
+  font-family: "Myriad Variable Concept";
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 50px;
   line-height: 64px;
   color: #ffffff;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   padding-top: 30px;
 }
 

@@ -33,9 +33,9 @@ export default function Header({ baseURL = "" }) {
   return (
     <header className={`${Styles.header} ${sticky ? Styles.sticky : ""}`}>
       <Navbar light expand="md" className={Styles.navbar} fixed="top">
-        <Container fluid>
+        <Container>
           <NavbarBrand href="/" className={Styles.brand}>
-            <img className={Styles.logo} src="/images/logo.png" alt="logo" />
+            <img src="/images/logo.png" alt="logo" />
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
@@ -84,9 +84,6 @@ export default function Header({ baseURL = "" }) {
                 <NavLink className={Styles["button_wallet"]}>
                   Connect Wallet
                 </NavLink>
-              </NavItem>
-              <NavItem className={Styles["nav-item"]}>
-                <NavLink className={Styles["flag"]} />
               </NavItem>
             </Nav>
           </Collapse>

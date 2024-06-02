@@ -1,9 +1,13 @@
 .introduction {
+    padding-top: 30px;
   align-items: center;
 }
 
 .title{
-    font-size : 70px;
+    font-size : 60px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .banner{
@@ -29,10 +33,9 @@
 }
 
 .content {
+    padding-top: 10px;
     margin: auto;
     text-align: left;
-    font-family: "AmsiProCond-Black";
-    font-size : 25px;
     color : #38388C;
 }
 

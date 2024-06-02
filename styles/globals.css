@@ -20,21 +20,24 @@
   url("https://db.onlinewebfonts.com/t/c056b003f96ba0a22f5015fe7ea8443c.svg#AmsiProCond-Black")format("svg");
 }
 
-
 @font-face {
-  font-family: "UTMCooperBlack";
-  src: url("/fonts/UTMCooperBlack.ttf") format('truetype');
-  font-weight: normal;
-  font-display: swap;
+  font-family: "Myriad Variable Concept";
+  src: url("https://db.onlinewebfonts.com/t/3a86b8ec8855002aad8b288eaba8915d.eot");
+  src: url("https://db.onlinewebfonts.com/t/3a86b8ec8855002aad8b288eaba8915d.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/3a86b8ec8855002aad8b288eaba8915d.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/3a86b8ec8855002aad8b288eaba8915d.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/3a86b8ec8855002aad8b288eaba8915d.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/3a86b8ec8855002aad8b288eaba8915d.svg#Myriad Variable Concept")format("svg");
 }
+
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "myriad-variable",sans-serif;
-  font-size: 16px;
-  line-height: 37px;
+  font-family: "AmsiProCond-Black";
+  font-size : 20px;
+  line-height: 25px;
   color: #38388C;
   background-image: url("/images/bg.png");
 }

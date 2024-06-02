@@ -1,16 +1,16 @@
 
 .header{
-  
+  font-family: "Myriad Variable Concept";
   font-size : 42px;
   color : #2538EF;
   font-variation-settings: 'wght' 600, 'wdth' 90;
-  height: 100px;
+  height: 80px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.logo{
-  height: 100px;
+.brand img{
+  height: 60px;
 }
 
 .navbar {
@@ -59,6 +59,7 @@
   left: 0;
   width: 100%;
   z-index: 91;
+ 
 }
 
 .sticky .navbar {
@@ -76,6 +77,7 @@
   opacity: 1;
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
+  background-color: #38388C;
 }
 
 @media screen and (max-width: 1200px) {
