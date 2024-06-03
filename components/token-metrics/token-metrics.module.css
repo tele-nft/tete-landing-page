@@ -4,3 +4,13 @@
   font-weight: bold;
   text-align: center;
 }
+
+.chart{
+  background: url("/images/logo.png") no-repeat center;
+}
+
+.chart canvas{
+  width: 700px !important;
+  height: 700px !important;
+  margin: auto;
+}
