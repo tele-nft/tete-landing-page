@@ -4,14 +4,6 @@ import { Col, Container, Row } from "reactstrap";
 import Styles from "./introduction.module.css";
 
 export default function Introduction() {
-  const settings = {
-    focusOnSelect: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    speed: 500,
-  };
-
   return (
     <section id="introduction" className={Styles.introduction}>
       <Container>

@@ -5,6 +5,7 @@ import Features from "components/features";
 import Footer from "components/footer";
 import Heros from "components/heros";
 import Introduction from "components/introduction";
+import Resources from "components/resources";
 import RoadMap from "components/road-map";
 import TokenMetrics from "components/token-metrics";
 import { NextPage } from "next";
@@ -35,6 +36,7 @@ const Home: NextPage = () => {
       <Features />
       <RoadMap />
       <Heros />
+      <Resources />
       <Footer />
     </div>
   );

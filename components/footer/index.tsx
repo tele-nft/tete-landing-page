@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
@@ -8,26 +7,6 @@ import Styles from "./footer.module.css";
 export default function Footer() {
   return (
     <section id="privace" className={Styles.bg}>
-      <Container>
-        <div className={Styles.warning}>
-          <div>
-            <span>
-              <Image
-                src={require("public/images/warning.png")}
-                alt="warning"
-                height={20}
-                width={20}
-              />
-            </span>
-            TELE is a meme coin with no intrinsic value or expectation of
-            financial return.
-          </div>
-          <div>
-            There is no formal team or roadmap. The coin is completely useless
-            and for entertainment purposes only.
-          </div>
-        </div>
-      </Container>
       <Container className={Styles.footer}>
         <div className={Styles.image}>
           <img src={"/images/logo.png"} />
