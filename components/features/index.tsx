@@ -3,19 +3,12 @@ import { Container } from "reactstrap";
 
 import styles from "./features.module.css";
 
-const images = [
-  require("public/images/features/feature1.png"),
-  require("public/images/features/feature2.png"),
-  require("public/images/features/feature3.png"),
-  require("public/images/features/feature4.png"),
-  require("public/images/features/feature5.png"),
-];
 type props = {
   name: string;
   desc: string;
   icon: any;
 };
-function Item({ name, desc, icon }: props) {
+function Item({ name, desc, icon }: Readonly<props>) {
   return (
     <div className={styles.item}>
       <div className={styles.icon}>
@@ -60,8 +53,8 @@ export default function Features() {
     <section id="features">
       <Container>
         <div className={styles.list}>
-          {data.map((item, index) => (
-            <Item key={index} {...item} />
+          {data.map((item) => (
+            <Item key={item.name} {...item} />
           ))}
         </div>
       </Container>
