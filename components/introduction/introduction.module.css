@@ -25,11 +25,12 @@
 .buttons input[type="button"]{
     background-color: #E8561C;
     color: #ffffff;
-    border-radius: 5px;
+    border-radius: 30rem;
     margin:15px;
     font-weight: bold;
     border: none;
-    width: 150px;
+    width: 250px;
+    height: 50px;
 }
 
 .content {

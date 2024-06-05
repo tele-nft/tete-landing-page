@@ -15,11 +15,17 @@
     max-width: 130px;
 }
 
-.resources .tabs{
-    top: 0;
-    overflow: hidden;
-    min-width: 250px;
-    float: left;
+.resources .tabs .item{
+    background-color: inherit;
+    color: #ffffff;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-bottom: 1px solid #6CA8EF;
+    cursor: pointer;
+}
+
+.resources .tabs .item.active{
+    color: #38388C
 }
 
 .resources .tabs button{

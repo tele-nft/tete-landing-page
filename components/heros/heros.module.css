@@ -14,11 +14,14 @@
 }
 
 .claim input[type="button"]{
+  width: 200px;
+  height: 60px;
+  margin: auto !important;
   background-color: #E8561C;
-  border-radius: 5px;
+  border-radius: 50rem;
   border: none;
-  width: 150px;
   color: #ffffff;
   font-size: 25px;
   font-weight: bold;
+  margin-bottom: 10px !important;
 }

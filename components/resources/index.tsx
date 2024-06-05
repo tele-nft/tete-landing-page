@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Col, Container, Row } from "reactstrap";
+import { Col, Container, ListGroup, ListGroupItem, Row } from "reactstrap";
 
 import FAQ from "./FAQ";
 import styles from "./resources.module.css";
@@ -29,11 +29,25 @@ export default function Resources() {
             <Image src={require("public/images/logo.png")} alt="logo" />
           </Col>
           <Col lg={3} sm={6}>
-            <div className={styles.tabs}>
-              <button className={styles.active}>FAQ</button>
-              <button>White Paper</button>
-              <button>Road Map</button>
-            </div>
+            <ListGroup flush className={styles.tabs}>
+              <ListGroupItem className={styles["item"]} active>
+                FAQ
+              </ListGroupItem>
+              <ListGroupItem
+                className={styles["item"]}
+                action
+                onClick={() => window.open("WPP.pdf", "_blank")}
+              >
+                White Paper
+              </ListGroupItem>
+              <ListGroupItem
+                className={styles["item"]}
+                href="#road-map"
+                tag="a"
+              >
+                Road Map
+              </ListGroupItem>
+            </ListGroup>
           </Col>
           <Col lg={6} sm={12}>
             <FAQ />
