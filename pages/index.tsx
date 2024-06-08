@@ -17,7 +17,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Gun Hunter NFT</title>
+        <title>TETE</title>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />

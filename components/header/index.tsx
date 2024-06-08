@@ -34,10 +34,11 @@ export default function Header({ baseURL = "" }) {
       <Navbar light expand="md" className={Styles.navbar} fixed="top">
         <NavbarBrand href="/" className={Styles.brand}>
           <img src="/images/logo.png" alt="logo" />
+          TETE
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav navbar className="m-auto">
+          <Nav className="ms-auto" navbar>
             <NavItem className={Styles["nav-item"]}>
               <NavLink
                 className={Styles["nav-link"]}
@@ -78,11 +79,14 @@ export default function Header({ baseURL = "" }) {
                 RWA
               </NavLink>
             </NavItem>
-            <NavItem className={Styles["nav-item"]}>
-              <NavLink className={Styles["button_wallet"]}>
+            <form>
+              <button
+                className={`btn ${Styles["button_wallet"]}`}
+                type="button"
+              >
                 Connect Wallet
-              </NavLink>
-            </NavItem>
+              </button>
+            </form>
           </Nav>
         </Collapse>
       </Navbar>

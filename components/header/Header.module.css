@@ -2,15 +2,19 @@
 .header{
   font-family: "Myriad Variable Concept";
   font-size : 42px;
-  color : #2538EF;
+  color : #ffffff;
   font-variation-settings: 'wght' 600, 'wdth' 90;
   height: 80px;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
+.brand{
+  color: #ffffff !important;
+}
+
 .brand img{
-  height: 60px;
+  height: 50px;
 }
 
 .navbar {
@@ -32,8 +36,11 @@
   background-size: 100% 100%;
   color: #ffffff !important;
   font-size: 18px;
+  font-weight: bold;
   padding: 0;
   text-decoration: none;
+  width: 150px;
+  height: 50px;
 }
 
 .flag
@@ -51,6 +58,7 @@
 .nav-link {
   color: #ffffff !important;
   font-size: 18px;
+  padding:0;
 }
 
 .sticky {
@@ -106,6 +114,7 @@
 
   .brand {
     width: 50px;
+    height: 50px;
   }
 
   .logo {
