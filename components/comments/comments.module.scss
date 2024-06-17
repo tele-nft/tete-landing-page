@@ -1,0 +1,43 @@
+
+.comments {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.title{
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+    text-shadow: 0px 4px 4.8px rgba(0, 0, 0, 0.25);
+    font-family: "SVN-Billo";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    .text{
+        display: flex;
+    align-items: center;
+    gap: 24px;
+    }
+}
+
+.list{
+    display: flex;
+    align-items: flex-start;
+    gap: 43px;
+
+    .item{
+        display: flex;
+        padding: 24px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 24px;
+        border: 1px solid var(--Stroke, #59D2F9);
+        background: rgba(89, 210, 249, 0.20);
+    }
+}

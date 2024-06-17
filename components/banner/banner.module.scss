@@ -1,0 +1,33 @@
+.text{
+    margin-top: 57px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 21px;
+    }
+
+    .button{
+        display: flex;
+        width: 410px;
+        padding: 32px 60px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        border-radius: 200px;
+        border: 1px solid var(--Blue, #59D2F9);
+        background: linear-gradient(0deg, #006299 0%, #00B8F3 100%);
+        
+        color: #ffffff;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}

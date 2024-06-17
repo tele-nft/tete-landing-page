@@ -1,57 +1,73 @@
 
 .header{
-  font-family: "Myriad Variable Concept";
-  font-size : 42px;
-  color : #ffffff;
-  font-variation-settings: 'wght' 600, 'wdth' 90;
-  height: 80px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.brand{
-  color: #ffffff !important;
-}
-
-.brand img{
-  height: 50px;
+  margin-top:48px;
+  border-radius: 100px;
+  background: rgba(89, 210, 249, 0.20);
+  backdrop-filter: blur(11.199999809265137px);
+  padding: 20px 32px;
 }
 
 .navbar {
-  padding: 10px 0px;
-  line-height: 50px;
-  min-height: 80px;
+  padding: 0;
+
+  .brand{
+    display: flex;
+    width: 242px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+  
+    img{
+      display: flex;
+      width: 80px;
+      height: 80px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .name{
+      color: #FFF;
+      font-family: SVN-Billo;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }  
 }
 
-.nav-item {
-  padding-left: 20px;
-}
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
 
+  .nav-item{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
 
 .button_wallet
 {
-  background-image: url('/images/button_wallet.png');
-  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
-  background-repeat:no-repeat;
-  background-size: 100% 100%;
-  color: #ffffff !important;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 0;
-  text-decoration: none;
-  width: 150px;
-  height: 50px;
-}
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 
-.flag
-{
-  background-image: url('/images/flag.png');
-  /*To create image referenced in CSS, use 'Export Selected CSS' command.*/
-  background-repeat:no-repeat;
-  height: 30px;
-  width: 50px;
-  margin-top: 10px;
-  padding: 0;
+  border-radius: 200px;
+  border: 1px solid var(--Blue, #59D2F9);
+  background: linear-gradient(0deg, #006299 0%, #00B8F3 100%);
+  color: #ffffff;
+
+  &:hover{
+    box-shadow: 0px 0px 32px 0px #59D2F9;
+    color: #ffffff;
+  }
 }
 
 

@@ -1,3 +1,4 @@
+import IconWallet from "components/icons/wallet";
 import React, { useEffect, useState } from "react";
 import {
   Collapse,
@@ -9,7 +10,7 @@ import {
   NavLink,
 } from "reactstrap";
 
-import Styles from "./Header.module.css";
+import Styles from "./Header.module.scss";
 
 export default function Header({ baseURL = "" }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,15 +31,15 @@ export default function Header({ baseURL = "" }) {
   };
 
   return (
-    <header className={`${Styles.header} ${sticky ? Styles.sticky : ""}`}>
-      <Navbar light expand="md" className={Styles.navbar} fixed="top">
+    <header className={`${Styles.header}`}>
+      <Navbar light expand="md" className={Styles.navbar}>
         <NavbarBrand href="/" className={Styles.brand}>
           <img src="/images/logo.png" alt="logo" />
-          TETE
+          <div className={Styles.name}>TEME</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ms-auto" navbar>
+          <Nav className={`${Styles.nav}`} navbar>
             <NavItem className={Styles["nav-item"]}>
               <NavLink
                 className={Styles["nav-link"]}
@@ -79,16 +80,11 @@ export default function Header({ baseURL = "" }) {
                 RWA
               </NavLink>
             </NavItem>
-            <form>
-              <button
-                className={`btn ${Styles["button_wallet"]}`}
-                type="button"
-              >
-                Connect Wallet
-              </button>
-            </form>
           </Nav>
         </Collapse>
+        <button className={`btn ${Styles["button_wallet"]}`} type="button">
+          Connect Wallet <IconWallet />
+        </button>
       </Navbar>
     </header>
   );

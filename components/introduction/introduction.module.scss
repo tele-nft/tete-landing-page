@@ -1,0 +1,135 @@
+.introduction {
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    .container{
+        display: flex;
+        flex-shrink: 0;
+        border-radius: 40px;
+        border: 1px solid var(--Stroke, #59D2F9);
+        background: rgba(89, 210, 249, 0.20);
+        backdrop-filter: blur(2px);
+    }
+}
+
+.image{
+    
+    flex-shrink: 0;
+    position: relative;
+    
+    .cover{
+        width: 391px;
+        height: 391px;
+        border-radius: 391px;
+        background: #59D2F9;
+        filter: blur(61.20000076293945px);
+    }
+
+    img{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 508px;
+        height: 548px;
+        flex-shrink: 0;
+    }
+}
+
+.content{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 80px;
+
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 32px;
+        text-align: center;
+        font-family: "SVN-Billo";
+        font-size: 90px;
+        line-height: normal;
+    }
+}
+
+.cat{
+    width: 508px;
+    height: 548px;
+    flex-shrink: 0;
+    background: url("/images//cat.png") lightgray -4.228px 10.552px / 110.128% 102.089% no-repeat;
+}
+
+.banner{
+    height: 320px;
+}
+
+.title span{
+    color : #2830CE;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.buttons input[type="button"]{
+    background-color: #E8561C;
+    color: #ffffff;
+    border-radius: 30rem;
+    margin:15px;
+    font-weight: bold;
+    border: none;
+    width: 250px;
+    height: 50px;
+}
+
+.button {
+    background: none;
+    border: none;
+}
+
+.connect {
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        font-size: 20px;
+    }
+}
+
+.item {
+    background-color: #191959;
+    width: 350px;
+    height: 350px;   
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.slick-current .item{
+    transform: scale(1.2);
+}
+
+.item img{
+   height: 100%;
+   width: 100%;
+   margin: auto;
+}
+
+.subTitle{
+    text-align: center;
+    color: #FF3392;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: "UTMCooperBlack";
+}
