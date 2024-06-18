@@ -43,3 +43,7 @@ section {
   /* top: -10px; */
 }
 
+.accordion-button:not(.collapsed)::after{
+  transform: rotate(90deg);
+}
+

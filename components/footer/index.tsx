@@ -1,21 +1,19 @@
 import React from "react";
-import { Row } from "reactstrap";
+import Image from "next/image";
 
-import Styles from "./footer.module.css";
+import Styles from "./footer.module.scss";
+import { Socials } from "config";
 
 export default function Footer() {
   return (
     <footer>
       <div className={Styles.footer}>
         <div className={Styles.inner}>
-          <div className={Styles.content}>
-            <Row>
-              <div>
-                <span>TETE</span>
-                <p>© 2013-2024 | All rights reserved.</p>
-              </div>
-            </Row>
-          </div>
+          {Socials.map(({ img }, index) => (
+            <a href="#" key={index}>
+              <Image src={img} width={80} height={80} />
+            </a>
+          ))}
         </div>
       </div>
     </footer>

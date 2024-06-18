@@ -5,21 +5,7 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 
 import styles from "./banner.module.scss";
-
-const icons = [
-  {
-    img: "/images/icons/icon-web.png",
-  },
-  {
-    img: "/images/icons/icon-x.png",
-  },
-  {
-    img: "/images/icons/icon-telegram.png",
-  },
-  {
-    img: "/images/icons/icon-youtube.png",
-  },
-];
+import { Socials } from "config";
 
 export default function Banner() {
   return (
@@ -47,7 +33,7 @@ export default function Banner() {
               <IconArrow />
             </button>
             <div className={styles.icons}>
-              {icons.map(({ img }, index) => (
+              {Socials.map(({ img }, index) => (
                 <a href="#" key={index}>
                   <Image src={img} width={80} height={80} />
                 </a>
