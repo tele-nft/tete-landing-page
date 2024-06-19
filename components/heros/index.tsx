@@ -1,9 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Container, Row } from "reactstrap";
-
-import Title from "../title";
-import Styles from "./heros.module.css";
+import Styles from "./heros.module.scss";
 
 const data = [
   require("public/images/heros/hero1.png"),
@@ -16,25 +13,18 @@ const data = [
 
 export default function Heros() {
   return (
-    <section id="characters">
-      <Container>
-        <Row>
-          <Title text="CLAIM NFT" />
-        </Row>
-        <Row>
-          <div className={Styles.list}>
-            {data.map((hero, index) => (
-              <div key={index} className={Styles.item}>
-                <Image src={hero} />
-              </div>
-            ))}
-          </div>
-        </Row>
-        <div className={Styles.claim}>
-          <input type="button" value="CLAIM" />
-          <div>COMING SOON</div>
-        </div>
-      </Container>
+    <section id="characters" className={Styles.heros}>
+      <div className={Styles.ellipse1}></div>
+      <div className={Styles.ellipse2}></div>
+      <div className={Styles.title}>
+        <Image
+          src={"/images/claim_nft.png"}
+          width={"517px"}
+          height={"129px"}
+          alt="claim_nft"
+        />
+        <button className={Styles["btn-claim"]}>Claim NFT</button>
+      </div>
     </section>
   );
 }

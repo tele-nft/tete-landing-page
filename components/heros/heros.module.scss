@@ -1,0 +1,63 @@
+.heros{
+  padding-top:120px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+
+  .ellipse1{
+    width: 970px;
+    height: 456px;
+    position: absolute;
+    top: -81px;
+    border-radius: 970px;
+    background: radial-gradient(50% 50% at 50% 50%, #5FE2FF 0%, rgba(95, 226, 255, 0.29) 54.5%, rgba(95, 226, 255, 0.00) 100%);
+    filter: blur(60px);
+  }
+
+  .ellipse2{
+    width: 100%;
+    height: 634px;
+    position: absolute;
+    top: 57px;
+    border-radius: 50%;
+    background: #090F10;
+  }
+
+  .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px; 
+  }
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item{
+  flex-grow: 2;
+  padding: 10px;
+}
+
+.claim{
+  text-align: center;
+}
+
+.claim input[type="button"]{
+  width: 200px;
+  height: 60px;
+  margin: auto !important;
+  background-color: #E8561C;
+  border-radius: 50rem;
+  border: none;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
