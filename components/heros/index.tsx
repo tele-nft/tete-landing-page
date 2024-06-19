@@ -28,7 +28,7 @@ export default function Heros() {
       <div className={Styles["loop_wrap"]}>
         <ul>
           {data.map((image, index) => (
-            <li>
+            <li key={`1${index}`}>
               <a href="#">
                 <Image src={image} width={"300px"} height={"300px"} alt="" />
               </a>
@@ -37,7 +37,7 @@ export default function Heros() {
         </ul>
         <ul>
           {data.map((image, index) => (
-            <li>
+            <li key={`2${index}`}>
               <a href="#">
                 <Image src={image} width={"300px"} height={"300px"} alt="" />
               </a>
