@@ -25,6 +25,26 @@ export default function Heros() {
         />
         <button className={Styles["btn-claim"]}>Claim NFT</button>
       </div>
+      <div className={Styles["loop_wrap"]}>
+        <ul>
+          {data.map((image, index) => (
+            <li>
+              <a href="#">
+                <Image src={image} width={"300px"} height={"300px"} alt="" />
+              </a>
+            </li>
+          ))}
+        </ul>
+        <ul>
+          {data.map((image, index) => (
+            <li>
+              <a href="#">
+                <Image src={image} width={"300px"} height={"300px"} alt="" />
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }
