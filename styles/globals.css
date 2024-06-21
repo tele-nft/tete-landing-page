@@ -4,12 +4,12 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
-@font-face {
+/* @font-face {
   font-family: 'SVN-Billo';
   src: url('/fonts/SVN-Billo.TTF') format('truetype');
   font-weight: normal;
   font-display: swap;
-}
+} */
 
 * {
   scroll-behavior: smooth;

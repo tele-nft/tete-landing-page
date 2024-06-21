@@ -9,8 +9,8 @@ export default function Footer() {
     <footer>
       <div className={Styles.footer}>
         <div className={Styles.inner}>
-          {Socials.map(({ img }, index) => (
-            <a href="#" key={index}>
+          {Socials.map(({ img, url }, index) => (
+            <a href={url} key={index} target="_blank">
               <Image
                 src={img}
                 width={80}
@@ -18,8 +18,9 @@ export default function Footer() {
                 alt={`social_${index}`}
                 style={{
                   maxWidth: "100%",
-                  height: "auto"
-                }} />
+                  height: "auto",
+                }}
+              />
             </a>
           ))}
         </div>

@@ -21,8 +21,9 @@ export default function Banner() {
                 height={182}
                 style={{
                   maxWidth: "100%",
-                  height: "auto"
-                }} />
+                  height: "auto",
+                }}
+              />
               <div>
                 The first memeable game AI restarking & RWA memecoin on
                 <span>
@@ -36,8 +37,8 @@ export default function Banner() {
               <IconArrow />
             </button>
             <div className={styles.icons}>
-              {Socials.map(({ img }, index) => (
-                <a href="#" key={index}>
+              {Socials.map(({ img, url }, index) => (
+                <a href={url} key={index} target="_blank">
                   <Image
                     src={img}
                     width={80}
@@ -45,8 +46,9 @@ export default function Banner() {
                     alt={`social_${index}`}
                     style={{
                       maxWidth: "100%",
-                      height: "auto"
-                    }} />
+                      height: "auto",
+                    }}
+                  />
                 </a>
               ))}
             </div>
@@ -60,8 +62,9 @@ export default function Banner() {
             height={1170}
             style={{
               maxWidth: "100%",
-              height: "auto"
-            }} />
+              height: "auto",
+            }}
+          />
         </Col>
       </Row>
     </Container>

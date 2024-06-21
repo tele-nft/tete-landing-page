@@ -1,6 +1,6 @@
 .introduction {
     display: flex;
-    padding-top: 160px;
+    padding-top: 120px;
     padding-bottom: 120px;
     flex-direction: column;
     align-items: flex-start;
@@ -13,6 +13,7 @@
         border: 1px solid var(--Stroke, #59D2F9);
         background: rgba(89, 210, 249, 0.20);
         backdrop-filter: blur(2px);
+        width: 1462px;
     }
 }
 
@@ -20,24 +21,21 @@
     
     flex-shrink: 0;
     position: relative;
-    
-    .cover{
-        width: 391px;
-        height: 391px;
-        border-radius: 391px;
-        background: #59D2F9;
-        filter: blur(61.20000076293945px);
-    }
+    width: 391px;
+    height: 391px;
+    border-radius: 391px;
+    background: #59D2F9;
+    filter: blur(61.20000076293945px);
+}
 
-    img{
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 508px;
-        height: 548px;
-        flex-shrink: 0;
-    }
+.cat{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 508px;
+    height: 548px;
+    flex-shrink: 0;
 }
 
 .content{
@@ -45,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    padding: 80px;
+    padding: 85px 80px;
 
     .title{
         display: flex;
@@ -53,17 +51,9 @@
         align-items: flex-start;
         gap: 32px;
         text-align: center;
-        font-family: "SVN-Billo";
-        font-size: 90px;
+        font-size: 120px;
         line-height: normal;
     }
-}
-
-.cat{
-    width: 508px;
-    height: 548px;
-    flex-shrink: 0;
-    background: url("/images//cat.png") lightgray -4.228px 10.552px / 110.128% 102.089% no-repeat;
 }
 
 .banner{

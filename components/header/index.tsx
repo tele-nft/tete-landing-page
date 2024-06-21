@@ -12,6 +12,7 @@ import {
 
 import Styles from "./Header.module.scss";
 import Image from "next/image";
+import { SVNBillo } from "fonts";
 
 export default function Header({ baseURL = "" }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +46,7 @@ export default function Header({ baseURL = "" }) {
               height: "auto",
             }}
           />
-          <div className={Styles.name}>TEME</div>
+          <div className={`${SVNBillo.className} ${Styles.name}`}>TEME</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
