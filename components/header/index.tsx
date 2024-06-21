@@ -52,14 +52,6 @@ export default function Header({ baseURL = "" }) {
             <NavItem className={Styles["nav-item"]}>
               <NavLink
                 className={Styles["nav-link"]}
-                href={`${baseURL}#features`}
-              >
-                Buy Now
-              </NavLink>
-            </NavItem>
-            <NavItem className={Styles["nav-item"]}>
-              <NavLink
-                className={Styles["nav-link"]}
                 href={`${baseURL}#characters`}
               >
                 Game

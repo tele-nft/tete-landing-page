@@ -10,6 +10,7 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <div className={styles.layout}>
+      <div className={styles.ellipse}></div>
       <Container>
         <Header />
         {children}
