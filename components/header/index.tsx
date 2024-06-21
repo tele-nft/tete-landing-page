@@ -52,10 +52,7 @@ export default function Header({ baseURL = "" }) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className={`m-auto ${Styles.nav}`} navbar>
             <NavItem className={Styles["nav-item"]}>
-              <NavLink
-                className={Styles["nav-link"]}
-                href={`${baseURL}#introduction`}
-              >
+              <NavLink className={Styles["nav-link"]} href="/airdrop">
                 Airdrop
               </NavLink>
             </NavItem>
