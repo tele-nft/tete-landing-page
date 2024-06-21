@@ -42,13 +42,14 @@ export default function Header({ baseURL = "" }) {
             height={80}
             style={{
               maxWidth: "100%",
-              height: "auto"
-            }} />
+              height: "auto",
+            }}
+          />
           <div className={Styles.name}>TEME</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className={`${Styles.nav}`} navbar>
+          <Nav className={`m-auto ${Styles.nav}`} navbar>
             <NavItem className={Styles["nav-item"]}>
               <NavLink
                 className={Styles["nav-link"]}
@@ -83,7 +84,7 @@ export default function Header({ baseURL = "" }) {
             </NavItem>
           </Nav>
         </Collapse>
-        <button className={`btn ${Styles["button_wallet"]}`} type="button">
+        <button className={`${Styles["button_wallet"]}`} type="button">
           Connect Wallet <IconWallet />
         </button>
       </Navbar>

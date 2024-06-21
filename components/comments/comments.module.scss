@@ -41,3 +41,15 @@
         background: rgba(89, 210, 249, 0.20);
     }
 }
+
+.ellipse{
+    width: 692.913px;
+    height: 692.913px;
+    position: absolute;
+    right: -346.913px;
+    bottom: -346.913px;
+    border-radius: 692.913px;
+    opacity: 0.4;
+    background: radial-gradient(50% 50% at 50% 50%, #59D2F9 0%, rgba(89, 210, 249, 0.00) 100%);
+    filter: blur(100px);
+}

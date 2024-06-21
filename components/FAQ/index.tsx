@@ -72,8 +72,9 @@ export default function FAQ() {
           alt="faq_cat"
           style={{
             maxWidth: "100%",
-            height: "auto"
-          }} />
+            height: "auto",
+          }}
+        />
         <div className={styles.content}>
           <div className={styles.title}>
             <Image
@@ -83,8 +84,9 @@ export default function FAQ() {
               alt="faq"
               style={{
                 maxWidth: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
           </div>
           <Accordion flush open={open} toggle={toggle} className={styles.items}>
             {data.map(({ id, header, body }) => (
@@ -103,6 +105,7 @@ export default function FAQ() {
           </Accordion>
         </div>
       </div>
+      <div className={styles.ellipse}></div>
     </section>
   );
 }

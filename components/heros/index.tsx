@@ -24,8 +24,10 @@ export default function Heros() {
           alt="claim_nft"
           style={{
             maxWidth: "100%",
-            height: "auto"
-          }} />
+            height: "auto",
+            zIndex: 9999,
+          }}
+        />
         <button className={Styles["btn-claim"]}>Claim NFT</button>
       </div>
       <div className={Styles["loop_wrap"]}>
@@ -40,8 +42,9 @@ export default function Heros() {
                   alt=""
                   style={{
                     maxWidth: "100%",
-                    height: "auto"
-                  }} />
+                    height: "auto",
+                  }}
+                />
               </a>
             </li>
           ))}
@@ -57,8 +60,9 @@ export default function Heros() {
                   alt=""
                   style={{
                     maxWidth: "100%",
-                    height: "auto"
-                  }} />
+                    height: "auto",
+                  }}
+                />
               </a>
             </li>
           ))}

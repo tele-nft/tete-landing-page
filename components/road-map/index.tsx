@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Grid from "./grid.svg";
 
 import styles from "./roadmap.module.scss";
 
@@ -82,6 +83,9 @@ function Bullet({ checked }: { checked: boolean }) {
 export default function RoadMap() {
   return (
     <section id="road-map" className={styles["road-map"]}>
+      <div className={styles.grid}>
+        <Grid />
+      </div>
       <div className={styles.title}>
         <Image
           src={"/images/roadmap.png"}
@@ -90,8 +94,9 @@ export default function RoadMap() {
           alt="roadmap"
           style={{
             maxWidth: "100%",
-            height: "auto"
-          }} />
+            height: "auto",
+          }}
+        />
       </div>
       <div className={styles.phases}>
         {phases.map(({ title, items }, index) => (
@@ -101,8 +106,9 @@ export default function RoadMap() {
               alt={`phase${index}`}
               style={{
                 maxWidth: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
             <div className={styles.line}></div>
             <div className={styles.content}>
               {items?.map(({ checked, value }, index) => (
@@ -115,7 +121,12 @@ export default function RoadMap() {
           </div>
         ))}
         <div className={styles.cat}>
-          <Image src={"/images/roadmap/cat.png"} alt="rm01" fill sizes="100vw" />
+          <Image
+            src={"/images/roadmap/cat.png"}
+            alt="rm01"
+            fill
+            sizes="100vw"
+          />
         </div>
       </div>
     </section>

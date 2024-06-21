@@ -27,8 +27,9 @@ export default function Comments() {
             alt="say"
             style={{
               maxWidth: "100%",
-              height: "auto"
-            }} />
+              height: "auto",
+            }}
+          />
         </div>
         <Image
           src={"/images/cat_comment.png"}
@@ -37,8 +38,9 @@ export default function Comments() {
           alt="cat_comment"
           style={{
             maxWidth: "100%",
-            height: "auto"
-          }} />
+            height: "auto",
+          }}
+        />
       </div>
       <div>
         <Carousel>
@@ -51,14 +53,16 @@ export default function Comments() {
                     alt=""
                     style={{
                       maxWidth: "100%",
-                      height: "auto"
-                    }} />
+                      height: "auto",
+                    }}
+                  />
                 </div>
               ))}
             </div>
           ))}
         </Carousel>
       </div>
+      <div className={Styles.ellipse}></div>
     </section>
   );
 }
