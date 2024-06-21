@@ -10,7 +10,7 @@ export default function Introduction() {
         <div className={Styles.container}>
           <div className={Styles.image}>
             <div className={Styles.cover}></div>
-            <img src={"/images/cat.png"} />
+            <Image src={"/images/cat.png"} width={508} height={548} alt="" />
           </div>
           <div className={Styles.content}>
             <div className={Styles.title}>

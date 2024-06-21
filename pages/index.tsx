@@ -13,16 +13,14 @@ import FAQ from "components/FAQ";
 
 const Home: NextPage = () => {
   return (
-    <Container>
-      <Header />
+    <>
       <Banner />
       <Introduction />
       <Comments />
       <RoadMap />
       <Heros />
       <FAQ />
-      <Footer />
-    </Container>
+    </>
   );
 };
 
