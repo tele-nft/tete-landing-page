@@ -67,18 +67,13 @@ export default function FAQ() {
       <div className={styles.container}>
         <Image
           src="/images/faq_cat.png"
-          width={"518.072px"}
-          height={"624.111px"}
+          width={518.072}
+          height={624.111}
           alt="faq_cat"
         />
         <div className={styles.content}>
           <div className={styles.title}>
-            <Image
-              src={"/images/faq.png"}
-              width={"194px"}
-              height={"129px"}
-              alt="faq"
-            />
+            <Image src={"/images/faq.png"} width={194} height={129} alt="faq" />
           </div>
           <Accordion flush open={open} toggle={toggle} className={styles.items}>
             {data.map(({ id, header, body }) => (

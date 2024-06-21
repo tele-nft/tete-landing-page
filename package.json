@@ -3,8 +3,8 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
-        "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+        "dev": "next dev",
+        "build": "next build",
         "start": "next start",
         "lint": "next lint"
     },
@@ -12,24 +12,23 @@
         "@material-ui/core": "^4.12.3",
         "@material-ui/icons": "^4.11.2",
         "bootstrap": "^5.1.1",
-        "chart.js": "^4.4.3",
-        "cross-env": "^7.0.3",
-        "next": "11.1.2",
-        "react": "^17.0.2",
-        "react-chartjs-2": "^5.2.0",
-        "react-dom": "^17.0.2",
+        "next": "^14.2.4",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
         "react-material-ui-carousel": "^2.3.5",
         "react-slick": "^0.28.1",
         "reactstrap": "^9.2.2",
         "sass": "^1.77.5",
+        "sharp": "^0.33.4",
         "slick-carousel": "^1.8.1"
     },
     "devDependencies": {
         "@svgr/webpack": "^5.5.0",
+        "@types/node": "20.14.7",
         "@types/react": "17.0.24",
         "@types/react-slick": "^0.23.7",
         "eslint": "7.32.0",
-        "eslint-config-next": "11.1.2",
-        "typescript": "4.4.3"
+        "eslint-config-next": "^14.2.4",
+        "typescript": "^5.5.2"
     }
 }

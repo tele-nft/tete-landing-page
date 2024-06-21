@@ -18,8 +18,8 @@ export default function Introduction() {
               <Image
                 alt="teme_blue` "
                 src={"/images/temetext_blue.png"}
-                width={"370px"}
-                height={"71px"}
+                width={370}
+                height={71}
               />
             </div>
             <div>

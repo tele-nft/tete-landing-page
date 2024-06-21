@@ -22,25 +22,25 @@ export default function Comments() {
           Kol say
           <Image
             src={"/images/temetext_blue.png"}
-            width={"279px"}
-            height={"85px"}
+            width={279}
+            height={85}
             alt="say"
           />
         </div>
         <Image
           src={"/images/cat_comment.png"}
-          width={"115px"}
-          height={"144px"}
+          width={115}
+          height={144}
           alt="cat_comment"
         />
       </div>
       <div>
         <Carousel>
           {items.map(({ Images }, index) => (
-            <div key={index} className={Styles.list}>
-              {Images.map((image) => (
-                <div key={image} className={Styles.item}>
-                  <Image src={image} />
+            <div key={`item${index}`} className={Styles.list}>
+              {Images.map((image, index) => (
+                <div key={`image_${index}`} className={Styles.item}>
+                  <Image src={image} alt="" />
                 </div>
               ))}
             </div>

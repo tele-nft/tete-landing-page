@@ -17,8 +17,8 @@ export default function Banner() {
               <Image
                 alt="teme_white1` "
                 src={"/images/temetext_white.png"}
-                width={"529px"}
-                height={"182px"}
+                width={529}
+                height={182}
               />
               <div>
                 The first memeable game AI restarking & RWA memecoin on
@@ -35,7 +35,12 @@ export default function Banner() {
             <div className={styles.icons}>
               {Socials.map(({ img }, index) => (
                 <a href="#" key={index}>
-                  <Image src={img} width={80} height={80} />
+                  <Image
+                    src={img}
+                    width={80}
+                    height={80}
+                    alt={`social_${index}`}
+                  />
                 </a>
               ))}
             </div>
@@ -45,8 +50,8 @@ export default function Banner() {
           <Image
             src={"/images/teme.png"}
             alt="banner"
-            width={"1170px"}
-            height={"1170px"}
+            width={1170}
+            height={1170}
           />
         </Col>
       </Row>

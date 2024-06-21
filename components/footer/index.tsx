@@ -11,7 +11,7 @@ export default function Footer() {
         <div className={Styles.inner}>
           {Socials.map(({ img }, index) => (
             <a href="#" key={index}>
-              <Image src={img} width={80} height={80} />
+              <Image src={img} width={80} height={80} alt={`social_${index}`} />
             </a>
           ))}
         </div>

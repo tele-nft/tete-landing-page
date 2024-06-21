@@ -19,8 +19,8 @@ export default function Heros() {
       <div className={Styles.title}>
         <Image
           src={"/images/claim_nft.png"}
-          width={"517px"}
-          height={"129px"}
+          width={517}
+          height={129}
           alt="claim_nft"
         />
         <button className={Styles["btn-claim"]}>Claim NFT</button>
@@ -30,7 +30,7 @@ export default function Heros() {
           {data.map((image, index) => (
             <li key={`1${index}`}>
               <a href="#">
-                <Image src={image} width={"300px"} height={"300px"} alt="" />
+                <Image src={image} width={300} height={300} alt="" />
               </a>
             </li>
           ))}
@@ -39,7 +39,7 @@ export default function Heros() {
           {data.map((image, index) => (
             <li key={`2${index}`}>
               <a href="#">
-                <Image src={image} width={"300px"} height={"300px"} alt="" />
+                <Image src={image} width={300} height={300} alt="" />
               </a>
             </li>
           ))}

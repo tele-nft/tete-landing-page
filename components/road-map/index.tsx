@@ -85,8 +85,8 @@ export default function RoadMap() {
       <div className={styles.title}>
         <Image
           src={"/images/roadmap.png"}
-          width={"485px"}
-          height={"129px"}
+          width={485}
+          height={129}
           alt="roadmap"
         />
       </div>

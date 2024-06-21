@@ -11,6 +11,7 @@ import {
 } from "reactstrap";
 
 import Styles from "./Header.module.scss";
+import Image from "next/image";
 
 export default function Header({ baseURL = "" }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ export default function Header({ baseURL = "" }) {
     <header className={`${Styles.header}`}>
       <Navbar light expand="md" className={Styles.navbar}>
         <NavbarBrand href="/" className={Styles.brand}>
-          <img src="/images/logo.png" alt="logo" />
+          <Image src="/images/logo.png" alt="logo" width={80} height={80} />
           <div className={Styles.name}>TEME</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
