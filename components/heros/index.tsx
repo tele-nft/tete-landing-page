@@ -22,7 +22,10 @@ export default function Heros() {
           width={517}
           height={129}
           alt="claim_nft"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <button className={Styles["btn-claim"]}>Claim NFT</button>
       </div>
       <div className={Styles["loop_wrap"]}>
@@ -30,7 +33,15 @@ export default function Heros() {
           {data.map((image, index) => (
             <li key={`1${index}`}>
               <a href="#">
-                <Image src={image} width={300} height={300} alt="" />
+                <Image
+                  src={image}
+                  width={300}
+                  height={300}
+                  alt=""
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </a>
             </li>
           ))}
@@ -39,7 +50,15 @@ export default function Heros() {
           {data.map((image, index) => (
             <li key={`2${index}`}>
               <a href="#">
-                <Image src={image} width={300} height={300} alt="" />
+                <Image
+                  src={image}
+                  width={300}
+                  height={300}
+                  alt=""
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                  }} />
               </a>
             </li>
           ))}

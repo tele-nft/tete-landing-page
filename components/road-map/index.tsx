@@ -88,12 +88,21 @@ export default function RoadMap() {
           width={485}
           height={129}
           alt="roadmap"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
       <div className={styles.phases}>
         {phases.map(({ title, items }, index) => (
           <div key={index} className={styles.phase}>
-            <Image src={title} alt={`phase${index}`} />
+            <Image
+              src={title}
+              alt={`phase${index}`}
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
             <div className={styles.line}></div>
             <div className={styles.content}>
               {items?.map(({ checked, value }, index) => (
@@ -106,7 +115,7 @@ export default function RoadMap() {
           </div>
         ))}
         <div className={styles.cat}>
-          <Image src={"/images/roadmap/cat.png"} alt="rm01" layout="fill" />
+          <Image src={"/images/roadmap/cat.png"} alt="rm01" fill sizes="100vw" />
         </div>
       </div>
     </section>

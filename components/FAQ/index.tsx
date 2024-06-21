@@ -70,10 +70,21 @@ export default function FAQ() {
           width={518.072}
           height={624.111}
           alt="faq_cat"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <div className={styles.content}>
           <div className={styles.title}>
-            <Image src={"/images/faq.png"} width={194} height={129} alt="faq" />
+            <Image
+              src={"/images/faq.png"}
+              width={194}
+              height={129}
+              alt="faq"
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <Accordion flush open={open} toggle={toggle} className={styles.items}>
             {data.map(({ id, header, body }) => (

@@ -10,7 +10,15 @@ export default function Introduction() {
         <div className={Styles.container}>
           <div className={Styles.image}>
             <div className={Styles.cover}></div>
-            <Image src={"/images/cat.png"} width={508} height={548} alt="" />
+            <Image
+              src={"/images/cat.png"}
+              width={508}
+              height={548}
+              alt=""
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className={Styles.content}>
             <div className={Styles.title}>
@@ -20,7 +28,10 @@ export default function Introduction() {
                 src={"/images/temetext_blue.png"}
                 width={370}
                 height={71}
-              />
+                style={{
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
             </div>
             <div>
               $TEME the most memeable game memecoin on TON Blockchain. TEME is

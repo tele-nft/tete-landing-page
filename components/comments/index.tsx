@@ -25,14 +25,20 @@ export default function Comments() {
             width={279}
             height={85}
             alt="say"
-          />
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </div>
         <Image
           src={"/images/cat_comment.png"}
           width={115}
           height={144}
           alt="cat_comment"
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
       <div>
         <Carousel>
@@ -40,7 +46,13 @@ export default function Comments() {
             <div key={`item${index}`} className={Styles.list}>
               {Images.map((image, index) => (
                 <div key={`image_${index}`} className={Styles.item}>
-                  <Image src={image} alt="" />
+                  <Image
+                    src={image}
+                    alt=""
+                    style={{
+                      maxWidth: "100%",
+                      height: "auto"
+                    }} />
                 </div>
               ))}
             </div>

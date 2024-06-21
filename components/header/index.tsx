@@ -35,7 +35,15 @@ export default function Header({ baseURL = "" }) {
     <header className={`${Styles.header}`}>
       <Navbar light expand="md" className={Styles.navbar}>
         <NavbarBrand href="/" className={Styles.brand}>
-          <Image src="/images/logo.png" alt="logo" width={80} height={80} />
+          <Image
+            src="/images/logo.png"
+            alt="logo"
+            width={80}
+            height={80}
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
           <div className={Styles.name}>TEME</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />

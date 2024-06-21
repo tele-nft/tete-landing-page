@@ -19,7 +19,10 @@ export default function Banner() {
                 src={"/images/temetext_white.png"}
                 width={529}
                 height={182}
-              />
+                style={{
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
               <div>
                 The first memeable game AI restarking & RWA memecoin on
                 <span>
@@ -40,7 +43,10 @@ export default function Banner() {
                     width={80}
                     height={80}
                     alt={`social_${index}`}
-                  />
+                    style={{
+                      maxWidth: "100%",
+                      height: "auto"
+                    }} />
                 </a>
               ))}
             </div>
@@ -52,7 +58,10 @@ export default function Banner() {
             alt="banner"
             width={1170}
             height={1170}
-          />
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </Col>
       </Row>
     </Container>
