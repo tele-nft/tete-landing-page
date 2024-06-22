@@ -55,8 +55,8 @@ function Tab0() {
         <div className={styles.item}>
           <Image src={"/images/logo.png"} width={156} height={156} alt="" />
           <div className={styles.text}>
-            <div className={styles.header}>Stake BTC, ETH, TON</div>
-            <div>Deposit your BTC, ETH or TON</div>
+            <div className={styles.header}>Get natively re-staked $TEME</div>
+            <div>Earn staking rewards plus loyalty points and TEME points</div>
           </div>
         </div>
         <div className={styles.arrow}>
@@ -70,8 +70,11 @@ function Tab0() {
             alt=""
           />
           <div className={styles.text}>
-            <div className={styles.header}>Stake BTC, ETH, TON</div>
-            <div>Deposit your BTC, ETH or TON</div>
+            <div className={styles.header}>Maximise Returns</div>
+            <div>
+              Receive TEME and used it in the TEME ecosystem to receive more
+              profits
+            </div>
           </div>
         </div>
       </div>
