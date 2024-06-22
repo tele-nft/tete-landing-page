@@ -1,0 +1,18 @@
+.nav-item{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 20px;
+    padding:0;
+
+    &.active{
+        color: #59D2F9 !important;
+        font-weight: 700;
+        border-bottom: 2px solid var(--Blue, #59D2F9);
+    }
+}

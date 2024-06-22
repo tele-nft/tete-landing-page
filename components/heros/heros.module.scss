@@ -100,5 +100,9 @@
       border: 1px solid var(--Stroke, #59D2F9);
       background: rgba(89, 210, 249, 0.20);
     }
+
+    &:hover{
+      animation-play-state: paused;
+    }
   }
 }

@@ -13,6 +13,7 @@ import {
 import Styles from "./Header.module.scss";
 import Image from "next/image";
 import { SVNBillo } from "fonts";
+import MenuLink from "./menu-link";
 
 export default function Header({ baseURL = "" }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,35 +52,11 @@ export default function Header({ baseURL = "" }) {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className={`m-auto ${Styles.nav}`} navbar>
-            <NavItem className={Styles["nav-item"]}>
-              <NavLink className={Styles["nav-link"]} href="/airdrop">
-                Airdrop
-              </NavLink>
-            </NavItem>
-            <NavItem className={Styles["nav-item"]}>
-              <NavLink
-                className={Styles["nav-link"]}
-                href={`${baseURL}#characters`}
-              >
-                Game
-              </NavLink>
-            </NavItem>
-            <NavItem className={Styles["nav-item"]}>
-              <NavLink
-                className={Styles["nav-link"]}
-                href={`${baseURL}#token-metrics`}
-              >
-                Restaking
-              </NavLink>
-            </NavItem>
-            <NavItem className={Styles["nav-item"]}>
-              <NavLink
-                className={Styles["nav-link"]}
-                href={`${baseURL}#road-map`}
-              >
-                RWA
-              </NavLink>
-            </NavItem>
+            <MenuLink href="/">Home</MenuLink>
+            <MenuLink href="/airdrop">Airdrop</MenuLink>
+            <MenuLink href="/game">Game</MenuLink>
+            <MenuLink href="/restaking">Restaking</MenuLink>
+            <MenuLink href="/rwa">RWA</MenuLink>
           </Nav>
         </Collapse>
         <button className={`${Styles["button_wallet"]}`} type="button">
