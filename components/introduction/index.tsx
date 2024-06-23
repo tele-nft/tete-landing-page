@@ -24,10 +24,11 @@ export default function Introduction() {
             />
           </div>
           <div>
-            $TEME the most memeable game memecoin on TON Blockchain. TEME is for
-            the people, alway community owned and managed and designed to make
-            memeCoins great again. Zero taxes, LP locked, $TEME. Fueled by pure
-            meme power, $TEME will lead the way.
+            We are reshaping the meme era!
+            <br />
+            TEME is powered By AI Technology, meme coin Gaming, Restaking & Real
+            World Asset (RWA). Buy upgrades, complete quests, invite friends and
+            become the pioneer Set To DOMINATE All Memes!
           </div>
         </div>
         <div className={Styles.cat}>

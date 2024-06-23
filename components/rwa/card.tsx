@@ -7,9 +7,10 @@ import TON from "./ton.svg";
 
 type Props = {
   image: string;
+  no: string;
 };
 
-export default function Card({ image }: Props) {
+export default function Card({ image, no }: Props) {
   return (
     <div className={styles.card}>
       <div className={styles.top}>
@@ -18,7 +19,7 @@ export default function Card({ image }: Props) {
           <div className={`${SVNBillo.className} ${styles.name}`}>
             Teme toys
           </div>
-          <div className={styles.no}>#0001</div>
+          <div className={styles.no}>{`#${no}`}</div>
         </div>
       </div>
       <div className={styles.center}>
