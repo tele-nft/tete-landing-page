@@ -54,7 +54,9 @@ export default function Header({ baseURL = "" }) {
           <Nav className={`m-auto ${Styles.nav}`} navbar>
             <MenuLink href="/">Home</MenuLink>
             <MenuLink href="/airdrop">Airdrop</MenuLink>
-            <MenuLink href="/game">Game</MenuLink>
+            <MenuLink href="https://t.me/temecoin_bot" target="_blank">
+              Game
+            </MenuLink>
             <MenuLink href="/restaking">Restaking</MenuLink>
             <MenuLink href="/rwa">RWA</MenuLink>
           </Nav>

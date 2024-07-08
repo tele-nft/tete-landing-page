@@ -32,7 +32,10 @@ export default function Banner() {
                 </span>
               </div>
             </div>
-            <button className={styles.button}>
+            <button
+              className={styles.button}
+              onClick={() => window.open("https://t.me/temecoin_bot", "_blank")}
+            >
               Play Now
               <IconArrow />
             </button>
