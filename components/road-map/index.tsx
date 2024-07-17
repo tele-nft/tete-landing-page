@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import Grid from "./grid.svg";
+import Image from 'next/image';
+import React from 'react';
 
-import styles from "./roadmap.module.scss";
+import Grid from './grid.svg';
+import styles from './roadmap.module.scss';
 
 const phases = [
   {
@@ -11,7 +11,7 @@ const phases = [
       { checked: true, value: "Initialize website" },
       { checked: true, value: "Marketing $TEME" },
       { checked: true, value: "Build basic game" },
-      { checked: false, value: "Referral system" },
+      { checked: true, value: "Referral system" },
     ],
   },
   {
