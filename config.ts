@@ -13,6 +13,6 @@ export const Socials = [
   },
   {
     img: "/images/icons/icon-youtube.png",
-    url: "https://Youtube.com/Temecoinxyz",
+    url: "https://Youtube.com/@Temecoinxyz",
   },
 ];
