@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
-import Grid from './grid.svg';
-import styles from './roadmap.module.scss';
+import Grid from "./grid.svg";
+import styles from "./roadmap.module.scss";
 
 const phases = [
   {
@@ -17,11 +17,11 @@ const phases = [
   {
     title: require("public/images/roadmap/phase_2.png"),
     items: [
-      { checked: false, value: "Basic game start" },
-      { checked: false, value: "Airdrop start" },
-      { checked: false, value: "Earn tasks" },
-      { checked: false, value: "Level up TEME" },
-      { checked: false, value: "More task update" },
+      { checked: true, value: "Basic game start" },
+      { checked: true, value: "Airdrop start" },
+      { checked: true, value: "Earn tasks" },
+      { checked: true, value: "Level up TEME" },
+      { checked: true, value: "More task update" },
     ],
   },
   {
