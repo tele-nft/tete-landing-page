@@ -1,3 +1,5 @@
+import { SVNBillo } from "fonts";
+import Image from "next/image";
 import React, { useState } from "react";
 import {
   Accordion,
@@ -7,7 +9,6 @@ import {
 } from "reactstrap";
 
 import styles from "./FAQ.module.scss";
-import Image from "next/image";
 
 const data = [
   {
@@ -64,6 +65,7 @@ export default function FAQ() {
 
   return (
     <section className={styles.faq}>
+      <div className={`${SVNBillo.className} ${styles.title}`}>FAQ</div>
       <div className={styles.container}>
         <Image
           src="/images/faq_cat.png"
@@ -76,18 +78,6 @@ export default function FAQ() {
           }}
         />
         <div className={styles.content}>
-          <div className={styles.title}>
-            <Image
-              src={"/images/faq.png"}
-              width={194}
-              height={129}
-              alt="faq"
-              style={{
-                maxWidth: "100%",
-                height: "auto",
-              }}
-            />
-          </div>
           <Accordion flush open={open} toggle={toggle} className={styles.items}>
             {data.map(({ id, header, body }) => (
               <AccordionItem key={id} className={styles.item}>

@@ -1,8 +1,9 @@
-import Image from "next/image";
-import React from "react";
+import { SVNBillo } from 'fonts';
+import Image from 'next/image';
+import React from 'react';
 
-import Grid from "./grid.svg";
-import styles from "./roadmap.module.scss";
+import Grid from './grid.svg';
+import styles from './roadmap.module.scss';
 
 const phases = [
   {
@@ -86,18 +87,7 @@ export default function RoadMap() {
       <div className={styles.grid}>
         <Grid />
       </div>
-      <div className={styles.title}>
-        <Image
-          src={"/images/roadmap.png"}
-          width={485}
-          height={129}
-          alt="roadmap"
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-          }}
-        />
-      </div>
+      <div className={`${SVNBillo.className} ${styles.title}`}>Roadmap</div>
       <div className={styles.phases}>
         {phases.map(({ title, items }, index) => (
           <div key={index} className={styles.phase}>

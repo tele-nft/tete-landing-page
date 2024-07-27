@@ -1,27 +1,32 @@
+import { SVNBillo } from "fonts";
 import Image from "next/image";
 import React from "react";
+import { Col, Container, Row } from "reactstrap";
 
 import Styles from "./introduction.module.scss";
-import { SVNBillo } from "fonts";
 
 export default function Introduction() {
   return (
     <section id="introduction" className={Styles.introduction}>
-      <div className={Styles.container}>
-        <div className={Styles.image}></div>
-        <div className={Styles.content}>
-          <div className={`${SVNBillo.className} ${Styles.title}`}>
-            What is
+      <Row>
+        <Col md={5}>
+          <div className={Styles.under}></div>
+          <div className={Styles.cat}>
             <Image
-              alt="teme_blue` "
-              src={"/images/temetext_blue.png"}
-              width={370}
-              height={71}
+              src={"/images/cat.png"}
+              width={508}
+              height={548}
+              alt=""
               style={{
-                width: "370px",
-                height: "94px",
+                width: "100%",
+                height: "auto",
               }}
             />
+          </div>
+        </Col>
+        <Col md={7}>
+          <div className={`${SVNBillo.className} ${Styles.title}`}>
+            What is <span className={Styles.blue}>teme</span>
           </div>
           <div>
             We are reshaping the meme era!
@@ -30,20 +35,8 @@ export default function Introduction() {
             World Asset (RWA). Buy upgrades, complete quests, invite friends and
             become the pioneer Set To DOMINATE All Memes!
           </div>
-        </div>
-        <div className={Styles.cat}>
-          <Image
-            src={"/images/cat.png"}
-            width={508}
-            height={548}
-            alt=""
-            style={{
-              width: "100%",
-              height: "auto",
-            }}
-          />
-        </div>
-      </div>
+        </Col>
+      </Row>
     </section>
   );
 }

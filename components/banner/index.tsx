@@ -1,17 +1,17 @@
 import IconArrow from "components/icons/arrow";
 import IconTon from "components/icons/ton";
+import { Socials } from "config";
 import Image from "next/image";
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 
 import styles from "./banner.module.scss";
-import { Socials } from "config";
 
 export default function Banner() {
   return (
     <Container>
       <Row>
-        <Col xs="5">
+        <Col lg="5" sm="12">
           <div className={styles.text}>
             <div className={styles.content}>
               <Image
@@ -57,7 +57,7 @@ export default function Banner() {
             </div>
           </div>
         </Col>
-        <Col xs="7">
+        <Col lg="7" sm="12">
           <Image
             src={"/images/teme.png"}
             alt="banner"

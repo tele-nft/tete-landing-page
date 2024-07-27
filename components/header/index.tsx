@@ -1,19 +1,11 @@
-import IconWallet from "components/icons/wallet";
-import React, { useEffect, useState } from "react";
-import {
-  Collapse,
-  Nav,
-  Navbar,
-  NavbarBrand,
-  NavbarToggler,
-  NavItem,
-  NavLink,
-} from "reactstrap";
+import IconWallet from 'components/icons/wallet';
+import { SVNBillo } from 'fonts';
+import Image from 'next/image';
+import React, { useEffect, useState } from 'react';
+import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
 
-import Styles from "./Header.module.scss";
-import Image from "next/image";
-import { SVNBillo } from "fonts";
-import MenuLink from "./menu-link";
+import Styles from './Header.module.scss';
+import MenuLink from './menu-link';
 
 export default function Header({ baseURL = "" }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,6 +42,7 @@ export default function Header({ baseURL = "" }) {
           <div className={`${SVNBillo.className} ${Styles.name}`}>TEME</div>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
+
         <Collapse isOpen={isOpen} navbar>
           <Nav className={`m-auto ${Styles.nav}`} navbar>
             <MenuLink href="/">Home</MenuLink>

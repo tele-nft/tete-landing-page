@@ -1,9 +1,9 @@
-import Image from "next/image";
-import React from "react";
-import Carousel from "react-material-ui-carousel";
+import { SVNBillo } from 'fonts';
+import Image from 'next/image';
+import React from 'react';
+import Carousel from 'react-material-ui-carousel';
 
-import Styles from "./comments.module.scss";
-import { SVNBillo } from "fonts";
+import Styles from './comments.module.scss';
 
 const items = [
   {
@@ -29,17 +29,7 @@ export default function Comments() {
     <section id="comments" className={Styles.comments}>
       <div className={`${SVNBillo.className} ${Styles.title}`}>
         <div className={Styles.text}>
-          Kol say
-          <Image
-            src={"/images/temetext_blue.png"}
-            width={279}
-            height={85}
-            alt="say"
-            style={{
-              maxWidth: "100%",
-              height: "auto",
-            }}
-          />
+          Kol say <span>teme</span>
         </div>
         <Image
           src={"/images/cat_comment.png"}

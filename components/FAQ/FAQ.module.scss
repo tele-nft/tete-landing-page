@@ -1,50 +1,37 @@
-.faq{
-    padding-top: 50px;
-    padding-bottom: 80px;
+.faq {
+  padding-top: 50px;
+  padding-bottom: 80px;
 
-    .container{
-        display: flex;
-        align-items: center;
-        gap: 101px;
+  .title {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
 
-        .content{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 40px;
-        }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 101px;
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 40px;
     }
+  }
 }
 
-.items{
-    width: 677px;
-    .item{
-        background-color: inherit;
-        border-bottom: none;
-        color: #ffffff;
-        font-size: 18px;
-    
-        .item-header {
-            button {
-                color: #ffffff;
-                background-color: inherit;
-                padding-left: 2em !important;
-                font-size: 20px;
-                border-bottom: 1px solid var(--Blue, #59D2F9);
-    
-                &::after{
-                    position: absolute;
-                    order: -1;
-                    margin-right: .5em !important;
-                    left: 0vw !important;
-                    background-image: url("/images/arrow.svg");
-                }
-            }
-        }
+@media only screen and (min-width: 768px) {
+  .faq {
+    .container {
+      flex-direction: column;
     }
-}
+  }
 
-.ellipse{
+  .ellipse {
     width: 536px;
     height: 536px;
     position: absolute;
@@ -52,6 +39,43 @@
     bottom: -67px;
     border-radius: 536px;
     opacity: 0.4;
-    background: radial-gradient(50% 50% at 50% 50%, #59D2F9 0%, rgba(89, 210, 249, 0.00) 100%);
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      #59d2f9 0%,
+      rgba(89, 210, 249, 0) 100%
+    );
     filter: blur(100px);
+  }
+}
+
+.items {
+  width: 677px;
+  .item {
+    background-color: inherit;
+    border-bottom: none;
+    color: #ffffff;
+    font-size: 18px;
+
+    .item-header {
+      button {
+        color: #ffffff;
+        background-color: inherit;
+        padding-left: 2em !important;
+        font-size: 20px;
+        border-bottom: 1px solid var(--Blue, #59d2f9);
+
+        &::after {
+          position: absolute;
+          order: -1;
+          margin-right: 0.5em !important;
+          left: 0vw !important;
+          background-image: url("/images/arrow.svg");
+        }
+      }
+    }
+  }
+}
+
+.ellipse {
+  display: none;
 }

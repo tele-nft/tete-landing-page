@@ -1,5 +1,7 @@
+import { SVNBillo } from "fonts";
 import Image from "next/image";
 import React from "react";
+
 import Styles from "./heros.module.scss";
 
 const data = [
@@ -16,20 +18,13 @@ export default function Heros() {
     <section id="characters" className={Styles.heros}>
       <div className={Styles.ellipse1}></div>
       <div className={Styles.ellipse2}></div>
-      <div className={Styles.title}>
-        <Image
-          src={"/images/claim_nft.png"}
-          width={517}
-          height={129}
-          alt="claim_nft"
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-            zIndex: 9999,
-          }}
-        />
+      <div className={`${Styles.title}`}>
+        <div className={`${SVNBillo.className} ${Styles.text}`}>
+          Claim <span>NFT</span>
+        </div>
         <button className={Styles["btn-claim"]}>Claim NFT</button>
       </div>
+
       <div className={Styles["loop_wrap"]}>
         <ul>
           {data.map((image, index) => (
