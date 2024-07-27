@@ -48,6 +48,7 @@
 
 @media only screen and (min-width: 768px) {
   .ellipse {
+    display: block;
     width: 692.913px;
     height: 692.913px;
     position: absolute;
@@ -65,5 +66,12 @@
 
   .list {
     flex-direction: row;
+  }
+
+  .title {
+    flex-direction: row;
+    .text {
+      font-size: 100px;
+    }
   }
 }

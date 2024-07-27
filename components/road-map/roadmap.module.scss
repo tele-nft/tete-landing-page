@@ -82,6 +82,7 @@
 @media only screen and (min-width: 768px) {
   .road-map {
     .grid {
+      display: block;
       height: 505px;
       position: absolute;
       top: -5px;
@@ -95,11 +96,18 @@
 
   .phases {
     .cat {
+      display: block;
       position: absolute;
       right: -30px;
       bottom: -30px;
       width: 320.946px;
       height: 320.946px;
+    }
+  }
+
+  .road-map {
+    .title {
+      font-size: 100px;
     }
   }
 }

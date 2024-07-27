@@ -1,14 +1,14 @@
-import { SVNBillo } from "fonts";
-import Image from "next/image";
-import React from "react";
-import { Col, Container, Row } from "reactstrap";
+import { SVNBillo } from 'fonts';
+import Image from 'next/image';
+import React from 'react';
+import { Col, Container, Row } from 'reactstrap';
 
-import Styles from "./introduction.module.scss";
+import Styles from './introduction.module.scss';
 
 export default function Introduction() {
   return (
     <section id="introduction" className={Styles.introduction}>
-      <Row>
+      <Row className={Styles.container}>
         <Col md={5}>
           <div className={Styles.under}></div>
           <div className={Styles.cat}>

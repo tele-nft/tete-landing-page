@@ -34,13 +34,10 @@
 }
 
 .container {
-  display: flex;
-  flex-shrink: 0;
   border-radius: 40px;
   border: 1px solid var(--Stroke, #59d2f9);
   background: rgba(89, 210, 249, 0.2);
   backdrop-filter: blur(2px);
-  width: 1462px;
 }
 
 .content {
@@ -90,9 +87,15 @@
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .content {
     font-size: 20px;
+  }
+
+  .introduction {
+    .title {
+      font-size: 100px;
+    }
   }
 }
 

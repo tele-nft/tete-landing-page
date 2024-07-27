@@ -25,12 +25,18 @@
 
 @media only screen and (min-width: 768px) {
   .faq {
+    .title {
+      font-size: 100px;
+    }
+
     .container {
-      flex-direction: column;
+      flex-direction: row;
+      gap: 100px;
     }
   }
 
   .ellipse {
+    display: block !important;
     width: 536px;
     height: 536px;
     position: absolute;

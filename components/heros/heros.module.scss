@@ -111,27 +111,38 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .ellipse1 {
-    width: 970px;
-    height: 456px;
-    position: absolute;
-    top: -81px;
-    border-radius: 970px;
-    background: radial-gradient(
-      50% 50% at 50% 50%,
-      #5fe2ff 0%,
-      rgba(95, 226, 255, 0.29) 54.5%,
-      rgba(95, 226, 255, 0) 100%
-    );
-    filter: blur(60px);
-  }
+  .heros {
+    .title {
+      z-index: 1;
+      .text {
+        font-size: 100px;
+      }
+    }
 
-  .ellipse2 {
-    width: 100%;
-    height: 634px;
-    position: absolute;
-    top: 57px;
-    border-radius: 50%;
-    background: #090f10;
+    .ellipse1 {
+      display: block;
+      width: 970px;
+      height: 456px;
+      position: absolute;
+      top: -81px;
+      border-radius: 970px;
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        #5fe2ff 0%,
+        rgba(95, 226, 255, 0.29) 54.5%,
+        rgba(95, 226, 255, 0) 100%
+      );
+      filter: blur(60px);
+    }
+
+    .ellipse2 {
+      display: block;
+      width: 100%;
+      height: 634px;
+      position: absolute;
+      top: 57px;
+      border-radius: 50%;
+      background: #090f10;
+    }
   }
 }
