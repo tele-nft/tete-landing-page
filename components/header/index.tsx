@@ -1,11 +1,19 @@
-import IconWallet from 'components/icons/wallet';
-import { SVNBillo } from 'fonts';
-import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
-import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from 'reactstrap';
+import IconWallet from "components/icons/wallet";
+import { SVNBillo } from "fonts";
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
+import {
+  Collapse,
+  Nav,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
+  NavItem,
+  NavLink,
+} from "reactstrap";
 
-import Styles from './Header.module.scss';
-import MenuLink from './menu-link';
+import Styles from "./Header.module.scss";
+import MenuLink from "./menu-link";
 
 export default function Header({ baseURL = "" }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,11 +60,11 @@ export default function Header({ baseURL = "" }) {
             </MenuLink>
             <MenuLink href="/restaking">Restaking</MenuLink>
             <MenuLink href="/rwa">RWA</MenuLink>
+            <button className={`${Styles["button_wallet"]}`} type="button">
+              Connect Wallet <IconWallet />
+            </button>
           </Nav>
         </Collapse>
-        <button className={`${Styles["button_wallet"]}`} type="button">
-          Connect Wallet <IconWallet />
-        </button>
       </Navbar>
     </header>
   );
