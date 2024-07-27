@@ -21,21 +21,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .road-map {
-    .grid {
-      height: 505px;
-      position: absolute;
-      top: -5px;
-      fill: linear-gradient(
-        180deg,
-        rgba(89, 210, 249, 0.4) 0%,
-        rgba(89, 210, 249, 0) 69.77%
-      );
-    }
-  }
-}
-
 .phases {
   display: flex;
   justify-content: center;
@@ -46,11 +31,7 @@
   position: relative;
 
   .cat {
-    position: absolute;
-    right: -30px;
-    bottom: -30px;
-    width: 320.946px;
-    height: 320.946px;
+    display: none;
   }
 
   .phase {
@@ -96,4 +77,29 @@
   height: 20px;
   border-radius: 63px;
   border: 1px solid var(--Blue, #59d2f9);
+}
+
+@media only screen and (min-width: 768px) {
+  .road-map {
+    .grid {
+      height: 505px;
+      position: absolute;
+      top: -5px;
+      fill: linear-gradient(
+        180deg,
+        rgba(89, 210, 249, 0.4) 0%,
+        rgba(89, 210, 249, 0) 69.77%
+      );
+    }
+  }
+
+  .phases {
+    .cat {
+      position: absolute;
+      right: -30px;
+      bottom: -30px;
+      width: 320.946px;
+      height: 320.946px;
+    }
+  }
 }
