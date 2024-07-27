@@ -1,9 +1,9 @@
-import { SVNBillo } from 'fonts';
-import Image from 'next/image';
-import React from 'react';
-import { Col, Container, Row } from 'reactstrap';
+import { SVNBillo } from "fonts";
+import Image from "next/image";
+import React from "react";
+import { Col, Container, Row } from "reactstrap";
 
-import Styles from './introduction.module.scss';
+import Styles from "./introduction.module.scss";
 
 export default function Introduction() {
   return (
@@ -24,7 +24,7 @@ export default function Introduction() {
             />
           </div>
         </Col>
-        <Col md={7}>
+        <Col md={7} className={Styles.auto}>
           <div className={`${SVNBillo.className} ${Styles.title}`}>
             What is <span className={Styles.blue}>teme</span>
           </div>

@@ -12,6 +12,8 @@ import {
   NavLink,
 } from "reactstrap";
 
+import { TonConnectButton } from "@tonconnect/ui-react";
+
 import Styles from "./Header.module.scss";
 import MenuLink from "./menu-link";
 
@@ -60,9 +62,7 @@ export default function Header({ baseURL = "" }) {
             </MenuLink>
             <MenuLink href="/restaking">Restaking</MenuLink>
             <MenuLink href="/rwa">RWA</MenuLink>
-            <button className={`${Styles["button_wallet"]}`} type="button">
-              Connect Wallet <IconWallet />
-            </button>
+            <TonConnectButton />
           </Nav>
         </Collapse>
       </Navbar>
