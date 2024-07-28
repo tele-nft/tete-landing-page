@@ -26,7 +26,7 @@ const items = [
     Images: [
       {
         img: require("public/images/comments/comment_4.png"),
-        url: "https://x.com/Cypto_Dao/status/1800824889504678157",
+        url: "https://x.com/chinigives/status/1816733297268928819?s=46&t=O3WoD5RD0UEbPHTghEsg_g",
       },
       {
         img: require("public/images/comments/comment_5.png"),
