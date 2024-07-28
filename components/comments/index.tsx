@@ -1,9 +1,9 @@
-import { SVNBillo } from 'fonts';
-import Image from 'next/image';
-import React from 'react';
-import Carousel from 'react-material-ui-carousel';
+import { SVNBillo } from "fonts";
+import Image from "next/image";
+import React from "react";
+import Carousel from "react-material-ui-carousel";
 
-import Styles from './comments.module.scss';
+import Styles from "./comments.module.scss";
 
 const items = [
   {
@@ -19,6 +19,18 @@ const items = [
       {
         img: require("public/images/comments/comment_3.png"),
         url: "https://x.com/Cypto_Dao/status/1800828931886707037",
+      },
+    ],
+  },
+  {
+    Images: [
+      {
+        img: require("public/images/comments/comment_4.png"),
+        url: "https://x.com/Cypto_Dao/status/1800824889504678157",
+      },
+      {
+        img: require("public/images/comments/comment_5.png"),
+        url: "https://x.com/jihanicorn/status/1806696739212230700?s=46",
       },
     ],
   },

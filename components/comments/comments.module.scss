@@ -32,12 +32,12 @@
   gap: 43px;
 
   .item {
+    max-width: 345px;
+    max-height: 570px;
     display: flex;
-    padding: 24px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 24px;
-    border: 1px solid var(--Stroke, #59d2f9);
     background: rgba(89, 210, 249, 0.2);
   }
 }
