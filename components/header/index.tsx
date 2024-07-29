@@ -56,7 +56,12 @@ export default function Header({ baseURL = "" }) {
         <Collapse isOpen={isOpen} navbar>
           <Nav className={`m-auto ${Styles.nav}`} navbar>
             <MenuLink href="/">Home</MenuLink>
-            <MenuLink href="/airdrop">Airdrop</MenuLink>
+            <MenuLink
+              href="https://forms.gle/RRM8iK5B53hM1kt9A"
+              target="_blank"
+            >
+              Airdrop
+            </MenuLink>
             <MenuLink href="https://t.me/temecoin_bot" target="_blank">
               Game
             </MenuLink>
